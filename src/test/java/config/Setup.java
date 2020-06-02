@@ -23,7 +23,7 @@ public class Setup {
 		mobileEmulation.put("deviceName", "Galaxy S5");
 		ChromeOptions handlessOptions = new ChromeOptions();
 		handlessOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
-		//handlessOptions.setHeadless(true);
+		handlessOptions.setHeadless(true);
 		handlessOptions.addArguments("start-maximized");
 		handlessOptions.addArguments("enable-automation");
 		handlessOptions.addArguments("--no-sandbox");

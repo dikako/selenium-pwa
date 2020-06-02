@@ -5,10 +5,11 @@
 		<classes>
 			<class name="test.Test_Register" />
 		</classes>
+	</test>
 
-		<test name="Test Login">
-			<classes>
-				<class name="test.Test_Login" />
-			</classes>
-		</test> <!-- Test -->
+	<test name="Test Login">
+		<classes>
+			<class name="test.Test_Login" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

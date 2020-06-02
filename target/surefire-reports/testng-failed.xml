@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test Register">
+    <classes>
+      <class name="test.Test_Register"/>
+    </classes>
+  </test> <!-- Test Register -->
+  <test name="Test Login">
+    <classes>
+      <class name="test.Test_Login"/>
+    </classes>
+  </test> <!-- Test Login -->
+  <test name="Test Register(failed)">
+    <classes>
+      <class name="test.Test_Login">
+        <methods>
+          <include name="set"/>
+        </methods>
+      </class> <!-- test.Test_Login -->
+      <class name="test.Test_Register">
+        <methods>
+          <include name="register_validateGender"/>
+          <include name="register_invalidPasswordNumChar"/>
+          <include name="done"/>
+          <include name="register_maxCharFullname"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- test.Test_Register -->
+    </classes>
+  </test> <!-- Test Register(failed) -->
+  <test name="Test Login(failed)">
+    <classes>
+      <class name="test.Test_Login">
+        <methods>
+          <include name="login_notRegisteredEmail"/>
+          <include name="login_successByAccount"/>
+          <include name="login_invalidPhone"/>
+          <include name="login_successByContinueWatching"/>
+          <include name="login_successByHistory"/>
+          <include name="login_notRegisteredPhone"/>
+          <include name="set"/>
+          <include name="login_success"/>
+          <include name="login_invalidPassword"/>
+          <include name="login_invalidEmail"/>
+          <include name="login_successByMyList"/>
+        </methods>
+      </class> <!-- test.Test_Login -->
+      <class name="test.Test_Register">
+        <methods>
+          <include name="done"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- test.Test_Register -->
+    </classes>
+  </test> <!-- Test Login(failed) -->
+</suite> <!-- Failed suite [Suite] -->
