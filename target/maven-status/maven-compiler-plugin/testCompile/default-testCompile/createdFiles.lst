@@ -1,0 +1,10 @@
+test\Test_Register.class
+config\Setup.class
+testcases\Login.class
+object\Logins.class
+object\EditProfiles.class
+object\Registers.class
+test\Test_Login.class
+testcases\Register.class
+config\Url.class
+reporter\Excel.class

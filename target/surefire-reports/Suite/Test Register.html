@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test Register</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/3</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jun 02 15:07:29 ICT 2020</td>
+<td>Started on:</td><td>Tue Jun 02 16:42:35 ICT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>58 seconds (58361 ms)</td>
+<tr><td>Total time:</td><td>103 seconds (103295 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,200 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='test.Test_Register.set()'><b>set</b><br>Test class: test.Test_Register ()</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: session not created
-from chrome not reachable
-  (Session info: chrome=83.0.4103.61)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MNCTVN05589&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00B89563+2725219]
-	Ordinal0 [0x00A88551+1672529]
-	Ordinal0 [0x00970202+524802]
-	Ordinal0 [0x009699B2+498098]
-	Ordinal0 [0x0096A09B+499867]
-	Ordinal0 [0x0096AFF5+503797]
-	Ordinal0 [0x00966994+485780]
-	Ordinal0 [0x00970FF0+528368]
-	Ordinal0 [0x0091D6C9+186057]
-	Ordinal0 [0x0091CA3D+182845]
-	Ordinal0 [0x0091A94B+174411]
-	Ordinal0 [0x00902528+75048]
-	Ordinal0 [0x009035A0+79264]
-	Ordinal0 [0x00903539+79161]
-	Ordinal0 [0x00A9D607+1758727]
-	GetHandleVerifier [0x00CA6546+1050150]
-	GetHandleVerifier [0x00CA6291+1049457]
-	GetHandleVerifier [0x00CB10D7+1094071]
-	GetHandleVerifier [0x00CA6B46+1051686]
-	Ordinal0 [0x00A95B06+1727238]
-	Ordinal0 [0x00A9EB7B+1764219]
-	Ordinal0 [0x00A9ECE3+1764579]
-	Ordinal0 [0x00AB4C05+1854469]
-	BaseThreadInitThunk [0x77976359+25]
-	RtlGetAppContainerNamedObjectPath [0x77D17B74+228]
-	RtlGetAppContainerNamedObjectPath [0x77D17B44+180]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
-	at config.Setup.set(Setup.java:41)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1428494531", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1428494531'><pre>org.openqa.selenium.SessionNotCreatedException: session not created
-from chrome not reachable
-  (Session info: chrome=83.0.4103.61)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MNCTVN05589&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00B89563+2725219]
-	Ordinal0 [0x00A88551+1672529]
-	Ordinal0 [0x00970202+524802]
-	Ordinal0 [0x009699B2+498098]
-	Ordinal0 [0x0096A09B+499867]
-	Ordinal0 [0x0096AFF5+503797]
-	Ordinal0 [0x00966994+485780]
-	Ordinal0 [0x00970FF0+528368]
-	Ordinal0 [0x0091D6C9+186057]
-	Ordinal0 [0x0091CA3D+182845]
-	Ordinal0 [0x0091A94B+174411]
-	Ordinal0 [0x00902528+75048]
-	Ordinal0 [0x009035A0+79264]
-	Ordinal0 [0x00903539+79161]
-	Ordinal0 [0x00A9D607+1758727]
-	GetHandleVerifier [0x00CA6546+1050150]
-	GetHandleVerifier [0x00CA6291+1049457]
-	GetHandleVerifier [0x00CB10D7+1094071]
-	GetHandleVerifier [0x00CA6B46+1051686]
-	Ordinal0 [0x00A95B06+1727238]
-	Ordinal0 [0x00A9EB7B+1764219]
-	Ordinal0 [0x00A9ECE3+1764579]
-	Ordinal0 [0x00AB4C05+1854469]
-	BaseThreadInitThunk [0x77976359+25]
-	RtlGetAppContainerNamedObjectPath [0x77D17B74+228]
-	RtlGetAppContainerNamedObjectPath [0x77D17B44+180]
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
-	at config.Setup.set(Setup.java:41)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-</pre></div></td>
-<td>0</td>
-<td>test.Test_Register@3d8c7aca</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='test.Test_Register.set()'><b>set</b><br>Test class: test.Test_Register ()</td>
-<td></td>
-<td>0</td>
-<td>test.Test_Register@3d8c7aca</td></tr>
-<tr>
-<td title='test.Test_Register.set()'><b>set</b><br>Test class: test.Test_Register ()</td>
-<td></td>
-<td>0</td>
-<td>test.Test_Register@3d8c7aca</td></tr>
-<tr>
-<td title='test.Test_Register.done()'><b>done</b><br>Test class: test.Test_Register ()</td>
-<td></td>
-<td>0</td>
-<td>test.Test_Register@3d8c7aca</td></tr>
-<tr>
-<td title='test.Test_Register.done()'><b>done</b><br>Test class: test.Test_Register ()</td>
-<td></td>
-<td>0</td>
-<td>test.Test_Register@3d8c7aca</td></tr>
-<tr>
-<td title='test.Test_Register.done()'><b>done</b><br>Test class: test.Test_Register ()</td>
-<td></td>
-<td>0</td>
-<td>test.Test_Register@3d8c7aca</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -271,35 +77,27 @@ remote stacktrace: Backtrace:
 <tr>
 <td title='test.Test_Register.register_invalidEmail()'><b>register_invalidEmail</b><br>Test class: test.Test_Register ()</td>
 <td></td>
-<td>16</td>
+<td>19</td>
 <td>test.Test_Register@3d8c7aca</td></tr>
 <tr>
 <td title='test.Test_Register.register_invalidPasswordNotMatch()'><b>register_invalidPasswordNotMatch</b><br>Test class: test.Test_Register ()</td>
 <td></td>
-<td>12</td>
+<td>13</td>
 <td>test.Test_Register@3d8c7aca</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
 <tr>
 <td title='test.Test_Register.register_invalidPasswordNumChar()'><b>register_invalidPasswordNumChar</b><br>Test class: test.Test_Register ()</td>
 <td></td>
-<td>0</td>
+<td>12</td>
 <td>test.Test_Register@3d8c7aca</td></tr>
 <tr>
 <td title='test.Test_Register.register_maxCharFullname()'><b>register_maxCharFullname</b><br>Test class: test.Test_Register ()</td>
 <td></td>
-<td>0</td>
+<td>13</td>
 <td>test.Test_Register@3d8c7aca</td></tr>
 <tr>
 <td title='test.Test_Register.register_validateGender()'><b>register_validateGender</b><br>Test class: test.Test_Register ()</td>
 <td></td>
-<td>0</td>
+<td>11</td>
 <td>test.Test_Register@3d8c7aca</td></tr>
 </table><p>
 </body>

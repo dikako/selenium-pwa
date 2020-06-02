@@ -18,7 +18,7 @@ public class Setup {
 
 	@BeforeMethod
 	public void set() {
-		WebDriverManager.chromedriver().browserVersion("83.0.4103.61").setup();
+		//WebDriverManager.chromedriver().browserVersion("83.0.4103.61").setup();
 		Map<String, String> mobileEmulation = new HashMap<String, String>();
 		mobileEmulation.put("deviceName", "Galaxy S5");
 		ChromeOptions handlessOptions = new ChromeOptions();
@@ -33,8 +33,8 @@ public class Setup {
 		handlessOptions.addArguments("--disable-gpu");
 		DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 		capabilities.setCapability(ChromeOptions.CAPABILITY, handlessOptions);
-		// System.setProperty("webdriver.chrome.driver",
-		// "D:\\Library\\Chrome_driver\\chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver",
+		 "/usr/bin/chromedriver");
 		// driver = new ChromeDriver(capabilities);
 		// driver = new FirefoxDriver(capabilities);
 		handlessOptions.merge(capabilities);
