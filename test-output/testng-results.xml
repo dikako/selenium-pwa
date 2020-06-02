@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="98606" started-at="2020-06-02T06:30:34Z" finished-at="2020-06-02T06:32:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="98606" started-at="2020-06-02T06:30:34Z" finished-at="2020-06-02T06:32:13Z">
+      <class name="test.Test_Register">
+        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="set" is-config="true" duration-ms="6369" started-at="2020-06-02T13:30:34Z" finished-at="2020-06-02T13:30:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="register_invalidEmail()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="register_invalidEmail" duration-ms="13851" started-at="2020-06-02T13:30:40Z" finished-at="2020-06-02T13:30:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_invalidEmail -->
+        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="done" is-config="true" duration-ms="884" started-at="2020-06-02T13:30:54Z" finished-at="2020-06-02T13:30:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="set" is-config="true" duration-ms="4667" started-at="2020-06-02T13:30:55Z" finished-at="2020-06-02T13:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="register_invalidPasswordNotMatch()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="register_invalidPasswordNotMatch" duration-ms="14365" started-at="2020-06-02T13:31:00Z" finished-at="2020-06-02T13:31:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_invalidPasswordNotMatch -->
+        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="done" is-config="true" duration-ms="880" started-at="2020-06-02T13:31:14Z" finished-at="2020-06-02T13:31:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="set" is-config="true" duration-ms="4332" started-at="2020-06-02T13:31:15Z" finished-at="2020-06-02T13:31:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="register_invalidPasswordNumChar()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="register_invalidPasswordNumChar" duration-ms="11639" started-at="2020-06-02T13:31:19Z" finished-at="2020-06-02T13:31:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_invalidPasswordNumChar -->
+        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="done" is-config="true" duration-ms="1030" started-at="2020-06-02T13:31:31Z" finished-at="2020-06-02T13:31:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="set" is-config="true" duration-ms="4333" started-at="2020-06-02T13:31:32Z" finished-at="2020-06-02T13:31:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="register_maxCharFullname()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="register_maxCharFullname" duration-ms="18299" started-at="2020-06-02T13:31:36Z" finished-at="2020-06-02T13:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_maxCharFullname -->
+        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="done" is-config="true" duration-ms="1144" started-at="2020-06-02T13:31:55Z" finished-at="2020-06-02T13:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="set" is-config="true" duration-ms="4618" started-at="2020-06-02T13:31:56Z" finished-at="2020-06-02T13:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="register_validateGender()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="register_validateGender" duration-ms="11280" started-at="2020-06-02T13:32:00Z" finished-at="2020-06-02T13:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_validateGender -->
+        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="done" is-config="true" duration-ms="900" started-at="2020-06-02T13:32:12Z" finished-at="2020-06-02T13:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+      </class> <!-- test.Test_Register -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
