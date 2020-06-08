@@ -1,73 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="98606" started-at="2020-06-02T06:30:34Z" finished-at="2020-06-02T06:32:13Z">
+  <suite name="Default suite" duration-ms="81122" started-at="2020-06-06T13:29:16Z" finished-at="2020-06-06T13:30:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="98606" started-at="2020-06-02T06:30:34Z" finished-at="2020-06-02T06:32:13Z">
-      <class name="test.Test_Register">
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="set" is-config="true" duration-ms="6369" started-at="2020-06-02T13:30:34Z" finished-at="2020-06-02T13:30:40Z">
+    <test name="Default test" duration-ms="81122" started-at="2020-06-06T13:29:16Z" finished-at="2020-06-06T13:30:37Z">
+      <class name="test.Test_ForgetPassword">
+        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_ForgetPassword@13deb50e]" test-instance-name="" name="set" is-config="true" duration-ms="2697" started-at="2020-06-06T20:29:16Z" finished-at="2020-06-06T20:29:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method status="PASS" signature="register_invalidEmail()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="register_invalidEmail" duration-ms="13851" started-at="2020-06-02T13:30:40Z" finished-at="2020-06-02T13:30:54Z">
+        <test-method status="PASS" signature="forgetpassword_invalidEmail()[pri:0, instance:test.Test_ForgetPassword@13deb50e]" test-instance-name="" name="forgetpassword_invalidEmail" duration-ms="18788" started-at="2020-06-06T20:29:19Z" finished-at="2020-06-06T20:29:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- register_invalidEmail -->
-        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="done" is-config="true" duration-ms="884" started-at="2020-06-02T13:30:54Z" finished-at="2020-06-02T13:30:55Z">
+        </test-method> <!-- forgetpassword_invalidEmail -->
+        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_ForgetPassword@13deb50e]" test-instance-name="" name="done" is-config="true" duration-ms="75" started-at="2020-06-06T20:29:38Z" finished-at="2020-06-06T20:29:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- done -->
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="set" is-config="true" duration-ms="4667" started-at="2020-06-02T13:30:55Z" finished-at="2020-06-02T13:31:00Z">
+        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_ForgetPassword@13deb50e]" test-instance-name="" name="set" is-config="true" duration-ms="1654" started-at="2020-06-06T20:29:38Z" finished-at="2020-06-06T20:29:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method status="PASS" signature="register_invalidPasswordNotMatch()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="register_invalidPasswordNotMatch" duration-ms="14365" started-at="2020-06-02T13:31:00Z" finished-at="2020-06-02T13:31:14Z">
+        <test-method status="PASS" signature="forgetpassword_invalidPhone()[pri:1, instance:test.Test_ForgetPassword@13deb50e]" test-instance-name="" name="forgetpassword_invalidPhone" duration-ms="18483" started-at="2020-06-06T20:29:39Z" finished-at="2020-06-06T20:29:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- register_invalidPasswordNotMatch -->
-        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="done" is-config="true" duration-ms="880" started-at="2020-06-02T13:31:14Z" finished-at="2020-06-02T13:31:15Z">
+        </test-method> <!-- forgetpassword_invalidPhone -->
+        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_ForgetPassword@13deb50e]" test-instance-name="" name="done" is-config="true" duration-ms="130" started-at="2020-06-06T20:29:58Z" finished-at="2020-06-06T20:29:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- done -->
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="set" is-config="true" duration-ms="4332" started-at="2020-06-02T13:31:15Z" finished-at="2020-06-02T13:31:19Z">
+        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_ForgetPassword@13deb50e]" test-instance-name="" name="set" is-config="true" duration-ms="1073" started-at="2020-06-06T20:29:58Z" finished-at="2020-06-06T20:29:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method status="PASS" signature="register_invalidPasswordNumChar()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="register_invalidPasswordNumChar" duration-ms="11639" started-at="2020-06-02T13:31:19Z" finished-at="2020-06-02T13:31:31Z">
+        <test-method status="PASS" signature="forgetpassword_emailNotRegistered()[pri:2, instance:test.Test_ForgetPassword@13deb50e]" test-instance-name="" name="forgetpassword_emailNotRegistered" duration-ms="18591" started-at="2020-06-06T20:29:59Z" finished-at="2020-06-06T20:30:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- register_invalidPasswordNumChar -->
-        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="done" is-config="true" duration-ms="1030" started-at="2020-06-02T13:31:31Z" finished-at="2020-06-02T13:31:32Z">
+        </test-method> <!-- forgetpassword_emailNotRegistered -->
+        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_ForgetPassword@13deb50e]" test-instance-name="" name="done" is-config="true" duration-ms="73" started-at="2020-06-06T20:30:18Z" finished-at="2020-06-06T20:30:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- done -->
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="set" is-config="true" duration-ms="4333" started-at="2020-06-02T13:31:32Z" finished-at="2020-06-02T13:31:36Z">
+        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_ForgetPassword@13deb50e]" test-instance-name="" name="set" is-config="true" duration-ms="1129" started-at="2020-06-06T20:30:18Z" finished-at="2020-06-06T20:30:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method status="PASS" signature="register_maxCharFullname()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="register_maxCharFullname" duration-ms="18299" started-at="2020-06-02T13:31:36Z" finished-at="2020-06-02T13:31:55Z">
+        <test-method status="PASS" signature="forgetpassword_phoneNotRegistered()[pri:3, instance:test.Test_ForgetPassword@13deb50e]" test-instance-name="" name="forgetpassword_phoneNotRegistered" duration-ms="18330" started-at="2020-06-06T20:30:19Z" finished-at="2020-06-06T20:30:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- register_maxCharFullname -->
-        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="done" is-config="true" duration-ms="1144" started-at="2020-06-02T13:31:55Z" finished-at="2020-06-02T13:31:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- done -->
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="set" is-config="true" duration-ms="4618" started-at="2020-06-02T13:31:56Z" finished-at="2020-06-02T13:32:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- set -->
-        <test-method status="PASS" signature="register_validateGender()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="register_validateGender" duration-ms="11280" started-at="2020-06-02T13:32:00Z" finished-at="2020-06-02T13:32:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- register_validateGender -->
-        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Register@26be92ad]" test-instance-name="" name="done" is-config="true" duration-ms="900" started-at="2020-06-02T13:32:12Z" finished-at="2020-06-02T13:32:13Z">
+        </test-method> <!-- forgetpassword_phoneNotRegistered -->
+        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_ForgetPassword@13deb50e]" test-instance-name="" name="done" is-config="true" duration-ms="76" started-at="2020-06-06T20:30:37Z" finished-at="2020-06-06T20:30:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- done -->
-      </class> <!-- test.Test_Register -->
+      </class> <!-- test.Test_ForgetPassword -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

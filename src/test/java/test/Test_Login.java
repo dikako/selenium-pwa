@@ -86,4 +86,12 @@ public class Test_Login extends  Setup {
 		url.defaultUrl();
 		page.loginByContinueWatching();
 	}
+	
+	@Test(priority = 5)
+	public void login_successByQrCode() throws InterruptedException {
+		Login page = new Login(driver);
+		Url url = new Url(driver);
+		url.defaultUrl();
+		page.loginByQrCode();
+	}
 }

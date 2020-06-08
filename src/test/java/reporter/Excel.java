@@ -15,16 +15,19 @@ import org.apache.poi.xssf.usermodel.XSSFCellStyle;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+
 public class Excel {
 
 	private XSSFWorkbook book;
 	
+	@Test
 	public void generateExcelReport(String destFilename)
 			throws ParserConfigurationException, SAXException, IOException {
 		String path = Excel.class.getClassLoader().getResource("./").getPath();

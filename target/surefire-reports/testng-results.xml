@@ -1,339 +1,298 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="15" passed="13">
+<testng-results skipped="25" failed="0" total="25" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="642510" started-at="2020-06-02T09:42:35Z" finished-at="2020-06-02T09:53:18Z">
+  <suite name="Suite" duration-ms="4753" started-at="2020-06-07T06:49:03Z" finished-at="2020-06-07T06:49:07Z">
     <groups>
     </groups>
-    <test name="Test Register" duration-ms="103295" started-at="2020-06-02T09:42:35Z" finished-at="2020-06-02T09:44:19Z">
-      <class name="test.Test_Register">
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Register@3d8c7aca]" test-instance-name="" name="set" is-config="true" duration-ms="6564" started-at="2020-06-02T16:42:35Z" finished-at="2020-06-02T16:42:42Z">
+    <test name="Test" duration-ms="4753" started-at="2020-06-07T06:49:03Z" finished-at="2020-06-07T06:49:07Z">
+      <class name="test.Test_ForgetPassword">
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_ForgetPassword@100fc185]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method status="PASS" signature="register_invalidEmail()[pri:0, instance:test.Test_Register@3d8c7aca]" test-instance-name="" name="register_invalidEmail" duration-ms="19262" started-at="2020-06-02T16:42:42Z" finished-at="2020-06-02T16:43:01Z">
+        <test-method status="SKIP" signature="forgetpassword_invalidEmail()[pri:0, instance:test.Test_ForgetPassword@100fc185]" test-instance-name="" name="forgetpassword_invalidEmail" duration-ms="1" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- register_invalidEmail -->
-        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Register@3d8c7aca]" test-instance-name="" name="done" is-config="true" duration-ms="1207" started-at="2020-06-02T16:43:01Z" finished-at="2020-06-02T16:43:02Z">
+        </test-method> <!-- forgetpassword_invalidEmail -->
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_ForgetPassword@100fc185]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- done -->
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Register@3d8c7aca]" test-instance-name="" name="set" is-config="true" duration-ms="5072" started-at="2020-06-02T16:43:02Z" finished-at="2020-06-02T16:43:07Z">
+        <test-method status="SKIP" signature="forgetpassword_invalidPhone()[pri:1, instance:test.Test_ForgetPassword@100fc185]" test-instance-name="" name="forgetpassword_invalidPhone" duration-ms="1" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgetpassword_invalidPhone -->
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_ForgetPassword@100fc185]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method status="PASS" signature="register_invalidPasswordNotMatch()[pri:0, instance:test.Test_Register@3d8c7aca]" test-instance-name="" name="register_invalidPasswordNotMatch" duration-ms="13988" started-at="2020-06-02T16:43:07Z" finished-at="2020-06-02T16:43:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- register_invalidPasswordNotMatch -->
-        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Register@3d8c7aca]" test-instance-name="" name="done" is-config="true" duration-ms="1417" started-at="2020-06-02T16:43:21Z" finished-at="2020-06-02T16:43:23Z">
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_ForgetPassword@100fc185]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- done -->
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Register@3d8c7aca]" test-instance-name="" name="set" is-config="true" duration-ms="4630" started-at="2020-06-02T16:43:23Z" finished-at="2020-06-02T16:43:27Z">
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_ForgetPassword@100fc185]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method status="PASS" signature="register_invalidPasswordNumChar()[pri:0, instance:test.Test_Register@3d8c7aca]" test-instance-name="" name="register_invalidPasswordNumChar" duration-ms="12594" started-at="2020-06-02T16:43:27Z" finished-at="2020-06-02T16:43:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- register_invalidPasswordNumChar -->
-        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Register@3d8c7aca]" test-instance-name="" name="done" is-config="true" duration-ms="1199" started-at="2020-06-02T16:43:40Z" finished-at="2020-06-02T16:43:41Z">
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_ForgetPassword@100fc185]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- done -->
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Register@3d8c7aca]" test-instance-name="" name="set" is-config="true" duration-ms="4659" started-at="2020-06-02T16:43:41Z" finished-at="2020-06-02T16:43:46Z">
+        <test-method status="SKIP" signature="forgetpassword_emailNotRegistered()[pri:2, instance:test.Test_ForgetPassword@100fc185]" test-instance-name="" name="forgetpassword_emailNotRegistered" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgetpassword_emailNotRegistered -->
+        <test-method status="SKIP" signature="forgetpassword_phoneNotRegistered()[pri:3, instance:test.Test_ForgetPassword@100fc185]" test-instance-name="" name="forgetpassword_phoneNotRegistered" duration-ms="1" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgetpassword_phoneNotRegistered -->
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_ForgetPassword@100fc185]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method status="PASS" signature="register_maxCharFullname()[pri:0, instance:test.Test_Register@3d8c7aca]" test-instance-name="" name="register_maxCharFullname" duration-ms="13547" started-at="2020-06-02T16:43:46Z" finished-at="2020-06-02T16:43:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- register_maxCharFullname -->
-        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Register@3d8c7aca]" test-instance-name="" name="done" is-config="true" duration-ms="1414" started-at="2020-06-02T16:43:59Z" finished-at="2020-06-02T16:44:01Z">
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_ForgetPassword@100fc185]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- done -->
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Register@3d8c7aca]" test-instance-name="" name="set" is-config="true" duration-ms="4619" started-at="2020-06-02T16:44:01Z" finished-at="2020-06-02T16:44:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- set -->
-        <test-method status="PASS" signature="register_validateGender()[pri:0, instance:test.Test_Register@3d8c7aca]" test-instance-name="" name="register_validateGender" duration-ms="11937" started-at="2020-06-02T16:44:05Z" finished-at="2020-06-02T16:44:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- register_validateGender -->
-        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Register@3d8c7aca]" test-instance-name="" name="done" is-config="true" duration-ms="1165" started-at="2020-06-02T16:44:17Z" finished-at="2020-06-02T16:44:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- done -->
-      </class> <!-- test.Test_Register -->
-    </test> <!-- Test Register -->
-    <test name="Test Login" duration-ms="539198" started-at="2020-06-02T09:44:19Z" finished-at="2020-06-02T09:53:18Z">
+      </class> <!-- test.Test_ForgetPassword -->
       <class name="test.Test_Login">
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Login@60addb54]" test-instance-name="" name="set" is-config="true" duration-ms="4400" started-at="2020-06-02T16:44:19Z" finished-at="2020-06-02T16:44:23Z">
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method status="PASS" signature="login_invalidEmail()[pri:0, instance:test.Test_Login@60addb54]" test-instance-name="" name="login_invalidEmail" duration-ms="25159" started-at="2020-06-02T16:44:23Z" finished-at="2020-06-02T16:44:48Z">
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="SKIP" signature="login_invalidEmail()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="login_invalidEmail" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_invalidEmail -->
-        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Login@60addb54]" test-instance-name="" name="done" is-config="true" duration-ms="1293" started-at="2020-06-02T16:44:48Z" finished-at="2020-06-02T16:44:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- done -->
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Login@60addb54]" test-instance-name="" name="set" is-config="true" duration-ms="4922" started-at="2020-06-02T16:44:49Z" finished-at="2020-06-02T16:44:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- set -->
-        <test-method status="PASS" signature="login_invalidPassword()[pri:1, instance:test.Test_Login@60addb54]" test-instance-name="" name="login_invalidPassword" duration-ms="26919" started-at="2020-06-02T16:44:54Z" finished-at="2020-06-02T16:45:21Z">
+        <test-method status="SKIP" signature="login_invalidPassword()[pri:1, instance:test.Test_Login@643b1d11]" test-instance-name="" name="login_invalidPassword" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_invalidPassword -->
-        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Login@60addb54]" test-instance-name="" name="done" is-config="true" duration-ms="1272" started-at="2020-06-02T16:45:21Z" finished-at="2020-06-02T16:45:23Z">
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="done" is-config="true" duration-ms="5" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- done -->
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Login@60addb54]" test-instance-name="" name="set" is-config="true" duration-ms="4826" started-at="2020-06-02T16:45:23Z" finished-at="2020-06-02T16:45:27Z">
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method status="PASS" signature="login_invalidPhone()[pri:2, instance:test.Test_Login@60addb54]" test-instance-name="" name="login_invalidPhone" duration-ms="26201" started-at="2020-06-02T16:45:27Z" finished-at="2020-06-02T16:45:54Z">
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="SKIP" signature="login_invalidPhone()[pri:2, instance:test.Test_Login@643b1d11]" test-instance-name="" name="login_invalidPhone" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_invalidPhone -->
-        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Login@60addb54]" test-instance-name="" name="done" is-config="true" duration-ms="1317" started-at="2020-06-02T16:45:54Z" finished-at="2020-06-02T16:45:55Z">
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- done -->
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Login@60addb54]" test-instance-name="" name="set" is-config="true" duration-ms="4734" started-at="2020-06-02T16:45:55Z" finished-at="2020-06-02T16:46:00Z">
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method status="PASS" signature="login_notRegisteredEmail()[pri:3, instance:test.Test_Login@60addb54]" test-instance-name="" name="login_notRegisteredEmail" duration-ms="25480" started-at="2020-06-02T16:46:00Z" finished-at="2020-06-02T16:46:25Z">
+        <test-method status="SKIP" signature="login_notRegisteredEmail()[pri:3, instance:test.Test_Login@643b1d11]" test-instance-name="" name="login_notRegisteredEmail" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_notRegisteredEmail -->
-        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Login@60addb54]" test-instance-name="" name="done" is-config="true" duration-ms="1290" started-at="2020-06-02T16:46:25Z" finished-at="2020-06-02T16:46:26Z">
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- done -->
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Login@60addb54]" test-instance-name="" name="set" is-config="true" duration-ms="4820" started-at="2020-06-02T16:46:26Z" finished-at="2020-06-02T16:46:31Z">
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method status="PASS" signature="login_notRegisteredPhone()[pri:4, instance:test.Test_Login@60addb54]" test-instance-name="" name="login_notRegisteredPhone" duration-ms="27274" started-at="2020-06-02T16:46:31Z" finished-at="2020-06-02T16:46:58Z">
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="SKIP" signature="login_notRegisteredPhone()[pri:4, instance:test.Test_Login@643b1d11]" test-instance-name="" name="login_notRegisteredPhone" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_notRegisteredPhone -->
-        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Login@60addb54]" test-instance-name="" name="done" is-config="true" duration-ms="1392" started-at="2020-06-02T16:46:58Z" finished-at="2020-06-02T16:47:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- done -->
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Login@60addb54]" test-instance-name="" name="set" is-config="true" duration-ms="4675" started-at="2020-06-02T16:47:00Z" finished-at="2020-06-02T16:47:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- set -->
-        <test-method status="PASS" signature="login_success()[pri:5, instance:test.Test_Login@60addb54]" test-instance-name="" name="login_success" duration-ms="32269" started-at="2020-06-02T16:47:05Z" finished-at="2020-06-02T16:47:37Z">
+        <test-method status="SKIP" signature="login_success()[pri:5, instance:test.Test_Login@643b1d11]" test-instance-name="" name="login_success" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_success -->
-        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Login@60addb54]" test-instance-name="" name="done" is-config="true" duration-ms="1353" started-at="2020-06-02T16:47:37Z" finished-at="2020-06-02T16:47:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- done -->
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Login@60addb54]" test-instance-name="" name="set" is-config="true" duration-ms="4727" started-at="2020-06-02T16:47:38Z" finished-at="2020-06-02T16:47:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- set -->
-        <test-method status="PASS" signature="login_successByAccount()[pri:5, instance:test.Test_Login@60addb54]" test-instance-name="" name="login_successByAccount" duration-ms="42851" started-at="2020-06-02T16:47:43Z" finished-at="2020-06-02T16:48:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login_successByAccount -->
-        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Login@60addb54]" test-instance-name="" name="done" is-config="true" duration-ms="1333" started-at="2020-06-02T16:48:26Z" finished-at="2020-06-02T16:48:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- done -->
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Login@60addb54]" test-instance-name="" name="set" is-config="true" duration-ms="4810" started-at="2020-06-02T16:48:27Z" finished-at="2020-06-02T16:48:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- set -->
-        <test-method status="FAIL" signature="login_successByContinueWatching()[pri:5, instance:test.Test_Login@60addb54]" test-instance-name="" name="login_successByContinueWatching" duration-ms="111808" started-at="2020-06-02T16:48:32Z" finished-at="2020-06-02T16:50:24Z">
-          <exception class="org.openqa.selenium.json.JsonException">
-            <message>
-              <![CDATA[java.lang.reflect.InvocationTargetException
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MNCTVN05589', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MNCTVN05589', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-	at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
-	at java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:608)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-	at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
-	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
-	at org.openqa.selenium.json.Json.toJson(Json.java:42)
-	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
-	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at object.Logins.popupLogin(Logins.java:85)
-	at testcases.Login.loginByContinueWatching(Login.java:467)
-	at test.Test_Login.login_successByContinueWatching(Test_Login.java:87)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MNCTVN05589', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: driver.version: RemoteWebDriver
-		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
-		at org.openqa.selenium.json.Json.toJson(Json.java:44)
-		... 37 more
-Caused by: java.lang.reflect.InvocationTargetException
-	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
-	... 49 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Sign In')]"}
-  (Session info: headless chrome=83.0.4103.61)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MNCTVN05589', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d561a5154772826770ca3c6c64547ed8
-*** Element info: {Using=xpath, value=//button[contains(text(),'Sign In')]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy7.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
-	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
-	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
-	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
-	... 53 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.json.JsonException -->
+        <test-method status="SKIP" signature="login_successByContinueWatching()[pri:5, instance:test.Test_Login@643b1d11]" test-instance-name="" name="login_successByContinueWatching" duration-ms="10" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_successByContinueWatching -->
-        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Login@60addb54]" test-instance-name="" name="done" is-config="true" duration-ms="1337" started-at="2020-06-02T16:50:24Z" finished-at="2020-06-02T16:50:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- done -->
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Login@60addb54]" test-instance-name="" name="set" is-config="true" duration-ms="4708" started-at="2020-06-02T16:50:25Z" finished-at="2020-06-02T16:50:30Z">
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method status="PASS" signature="login_successByHistory()[pri:5, instance:test.Test_Login@60addb54]" test-instance-name="" name="login_successByHistory" duration-ms="50149" started-at="2020-06-02T16:50:30Z" finished-at="2020-06-02T16:51:20Z">
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="SKIP" signature="login_successByAccount()[pri:5, instance:test.Test_Login@643b1d11]" test-instance-name="" name="login_successByAccount" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_successByAccount -->
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="SKIP" signature="login_successByHistory()[pri:5, instance:test.Test_Login@643b1d11]" test-instance-name="" name="login_successByHistory" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_successByHistory -->
-        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Login@60addb54]" test-instance-name="" name="done" is-config="true" duration-ms="1300" started-at="2020-06-02T16:51:20Z" finished-at="2020-06-02T16:51:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- done -->
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_Login@60addb54]" test-instance-name="" name="set" is-config="true" duration-ms="4732" started-at="2020-06-02T16:51:21Z" finished-at="2020-06-02T16:51:26Z">
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method status="FAIL" signature="login_successByMyList()[pri:5, instance:test.Test_Login@60addb54]" test-instance-name="" name="login_successByMyList" duration-ms="110384" started-at="2020-06-02T16:51:26Z" finished-at="2020-06-02T16:53:16Z">
-          <exception class="org.openqa.selenium.json.JsonException">
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="SKIP" signature="login_successByMyList()[pri:5, instance:test.Test_Login@643b1d11]" test-instance-name="" name="login_successByMyList" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_successByMyList -->
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_Login@643b1d11]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="SKIP" signature="login_successByQrCode()[pri:5, instance:test.Test_Login@643b1d11]" test-instance-name="" name="login_successByQrCode" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_successByQrCode -->
+      </class> <!-- test.Test_Login -->
+      <class name="test.Test_Mylist">
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Mylist@3a82f6ef]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="SKIP" signature="mylist_addByAccountLogin()[pri:0, instance:test.Test_Mylist@3a82f6ef]" test-instance-name="" name="mylist_addByAccountLogin" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mylist_addByAccountLogin -->
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_Mylist@3a82f6ef]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+      </class> <!-- test.Test_Mylist -->
+      <class name="test.Test_Register">
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Register@6cc4c815]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="SKIP" signature="register_invalidEmail()[pri:0, instance:test.Test_Register@6cc4c815]" test-instance-name="" name="register_invalidEmail" duration-ms="1" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_invalidEmail -->
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_Register@6cc4c815]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="SKIP" signature="register_invalidPasswordNotMatch()[pri:0, instance:test.Test_Register@6cc4c815]" test-instance-name="" name="register_invalidPasswordNotMatch" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_invalidPasswordNotMatch -->
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Register@6cc4c815]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_Register@6cc4c815]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Register@6cc4c815]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_Register@6cc4c815]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="SKIP" signature="register_invalidPasswordNumChar()[pri:0, instance:test.Test_Register@6cc4c815]" test-instance-name="" name="register_invalidPasswordNumChar" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_invalidPasswordNumChar -->
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Register@6cc4c815]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="SKIP" signature="register_maxCharFullname()[pri:0, instance:test.Test_Register@6cc4c815]" test-instance-name="" name="register_maxCharFullname" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_maxCharFullname -->
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Register@6cc4c815]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_Register@6cc4c815]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_Register@6cc4c815]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="SKIP" signature="register_validateGender()[pri:0, instance:test.Test_Register@6cc4c815]" test-instance-name="" name="register_validateGender" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_validateGender -->
+      </class> <!-- test.Test_Register -->
+      <class name="test.Test_Chat">
+        <test-method status="FAIL" signature="set()[pri:0, instance:test.Test_Chat@56f4468b]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:03Z" finished-at="2020-06-07T13:49:03Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
-              <![CDATA[java.lang.reflect.InvocationTargetException
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MNCTVN05589', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'MNCTVN05589', ip: '192.168.43.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MNCTVN05589', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'MNCTVN05589', ip: '192.168.43.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-	at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
-	at java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:608)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-	at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
-	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
-	at org.openqa.selenium.json.Json.toJson(Json.java:42)
-	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
-	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at object.Logins.popupLogin(Logins.java:85)
-	at testcases.Login.loginByMylist(Login.java:450)
-	at test.Test_Login.login_successByMyList(Test_Login.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at config.Setup.set(Setup.java:41)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
@@ -341,75 +300,101 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.TestRunner.privateRun(TestRunner.java:782)
 	at org.testng.TestRunner.run(TestRunner.java:632)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MNCTVN05589', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: driver.version: RemoteWebDriver
-		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
-		at org.openqa.selenium.json.Json.toJson(Json.java:44)
-		... 37 more
-Caused by: java.lang.reflect.InvocationTargetException
-	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
-	... 49 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Sign In')]"}
-  (Session info: headless chrome=83.0.4103.61)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MNCTVN05589', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62180}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 8347b7483b38205071a9d65852667ac5
-*** Element info: {Using=xpath, value=//button[contains(text(),'Sign In')]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy7.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
-	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
-	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
-	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
-	... 53 more
+	... 26 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	... 48 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login_successByMyList -->
-        <test-method status="PASS" signature="done()[pri:0, instance:test.Test_Login@60addb54]" test-instance-name="" name="done" is-config="true" duration-ms="1449" started-at="2020-06-02T16:53:16Z" finished-at="2020-06-02T16:53:18Z">
+        </test-method> <!-- set -->
+        <test-method status="SKIP" signature="chat_beforeLoginRCTI()[pri:0, instance:test.Test_Chat@56f4468b]" test-instance-name="" name="chat_beforeLoginRCTI" duration-ms="1" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chat_beforeLoginRCTI -->
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_Chat@56f4468b]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- done -->
-      </class> <!-- test.Test_Login -->
-    </test> <!-- Test Login -->
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_Chat@56f4468b]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Chat@56f4468b]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="SKIP" signature="chat_beforeLoginMNCTV()[pri:1, instance:test.Test_Chat@56f4468b]" test-instance-name="" name="chat_beforeLoginMNCTV" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chat_beforeLoginMNCTV -->
+        <test-method status="SKIP" signature="chat_beforeLoginGTV()[pri:2, instance:test.Test_Chat@56f4468b]" test-instance-name="" name="chat_beforeLoginGTV" duration-ms="1" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chat_beforeLoginGTV -->
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Chat@56f4468b]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_Chat@56f4468b]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Chat@56f4468b]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="SKIP" signature="chat_beforeLoginINEWS()[pri:3, instance:test.Test_Chat@56f4468b]" test-instance-name="" name="chat_beforeLoginINEWS" duration-ms="1" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chat_beforeLoginINEWS -->
+        <test-method status="SKIP" signature="done()[pri:0, instance:test.Test_Chat@56f4468b]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-07T13:49:07Z" finished-at="2020-06-07T13:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+      </class> <!-- test.Test_Chat -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

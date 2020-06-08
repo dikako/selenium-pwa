@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 import object.Registers;
+import wordings.Wording_Register;
 
 public class Register {
 	WebDriver driver;
@@ -28,7 +29,9 @@ public class Register {
 
 	public void inputBirthdate() {
 		String password = "dikakoko";
+		
 		Registers register = PageFactory.initElements(driver, Registers.class);
+		
 		register.inputEmail(randomEmail(email, randoms, index));
 		register.inputPassword(password);
 		register.inputRePassword(password);
@@ -38,7 +41,9 @@ public class Register {
 
 	public void validateGender() {
 		String password = "dikakoko";
+		
 		Registers register = PageFactory.initElements(driver, Registers.class);
+		
 		System.out.println("Test - Validate Gander Male & Female");
 		register.inputEmail(randomEmail(email, randoms, index));
 		register.inputPassword(password);
@@ -49,8 +54,11 @@ public class Register {
 
 	public void maxCharFullname() {
 		String password = "dikakoko";
+		
 		Registers register = PageFactory.initElements(driver, Registers.class);
+		
 		System.out.println("Test - Max Char on Fullname is 25");
+		
 		register.inputEmail(randomEmail(email, randoms, index));
 		register.inputPassword(password);
 		register.inputRePassword(password);
@@ -61,43 +69,57 @@ public class Register {
 	public void invalidEmail() {
 		String wording = "Please Try Again Email Is Incorrect";
 		String password = "dikakoko";
+		
 		Registers register = PageFactory.initElements(driver, Registers.class);
+		Wording_Register wordingRegister = PageFactory.initElements(driver, Wording_Register.class);
+		
 		System.out.println("Test - Wording Invalid Email");
+		
 		register.inputEmail(randomEmailInvalid(emailInvalid, randoms, index));
 		register.inputPassword(password);
 		register.inputRePassword(password);
 		register.button();
-		register.invalidEmail(wording);
+		wordingRegister.invalidEmail(wording);
 	}
 
 	public void invalidPasswordNumChars() {
 		String wording = "Password must at least 8 characters";
 		String password = "dikako";
+		
 		Registers register = PageFactory.initElements(driver, Registers.class);
+		Wording_Register wordingRegister = PageFactory.initElements(driver, Wording_Register.class);
+		
 		System.out.println("Test - Wording invalid Password Min Char");
+		
 		register.inputEmail(randomEmail(email, randoms, index));
 		register.inputPassword(password);
 		register.inputRePassword(password);
 		register.button();
-		register.invalidPasswordNumChars(wording);
+		wordingRegister.invalidPasswordNumChars(wording);
 	}
 
 	public void invalidPasswordNotMatch() {
 		String wording = "Password must match";
 		String password = "dikakoko";
 		String passwordNotMatch = "Notmatchs";
+		
 		Registers register = PageFactory.initElements(driver, Registers.class);
+		Wording_Register wordingRegister = PageFactory.initElements(driver, Wording_Register.class);
+		
 		System.out.println("Test - Woording Invalid Password not match");
+		
 		register.inputEmail(randomEmail(email, randoms, index));
 		register.inputPassword(password);
 		register.inputRePassword(passwordNotMatch);
 		register.button();
-		register.invalidPasswordNotMatch(wording);
+		wordingRegister.invalidPasswordNotMatch(wording);
 	}
 
 	public void register_first() {
 		String password = "dikakoko";
+		
 		Registers register = PageFactory.initElements(driver, Registers.class);
+		
 		register.inputEmail(randomEmail(email, randoms, index));
 		register.inputPassword(password);
 		register.inputRePassword(password);

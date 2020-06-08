@@ -40,18 +40,6 @@ public class Registers {
 	@FindBy(how = How.ID, id = "gender")
 	WebElement formGender;
 
-	@FindBy(how = How.ID, id = "invalid-email")
-	WebElement invalidEmail;
-
-	@FindBy(how = How.ID, id = "invalid-phone-number")
-	WebElement invalidPhone;
-
-	@FindBy(how = How.ID, id = "invalid-password-num-chars")
-	WebElement invalidPasswordNumChars;
-
-	@FindBy(how = How.ID, id = "invalid-password-not-match")
-	WebElement invalidPasswordNotMatch;
-
 	@FindBy(how = How.LINK_TEXT, linkText = "Done")
 	WebElement saveDatePicker;
 
@@ -86,51 +74,6 @@ public class Registers {
 		System.out.println("Max Length Actual: " + maxlengthValue + " Expected: " + expected + " Is Match!");
 		actions.click();
 		actions.build().perform();
-
-	}
-
-	public void invalidPasswordNotMatch(String wording) {
-		waitForVisible(driver, invalidPasswordNotMatch);
-		Actions actions = new Actions(driver);
-		actions.moveToElement(invalidPasswordNotMatch);
-		String actualAlert = invalidPasswordNotMatch.getText().toLowerCase().replace(" ", "").replace(",", "");
-		String expected = wording.toLowerCase().replace(" ", "").replace(",", "");
-		Assert.assertEquals(actualAlert, expected);
-		actions.build().perform();
-		System.out.println("Actual Result " + actualAlert + " & Expected Result " + expected + " Is Macth!");
-	}
-
-	public void invalidPasswordNumChars(String wording) {
-		waitForVisible(driver, invalidPasswordNumChars);
-		Actions actions = new Actions(driver);
-		actions.moveToElement(invalidPasswordNumChars);
-		String actualAlert = invalidPasswordNumChars.getText().toLowerCase().replace(" ", "").replace(",", "");
-		String expected = wording.toLowerCase().replace(" ", "").replace(",", "");
-		Assert.assertEquals(actualAlert, expected);
-		actions.build().perform();
-		System.out.println("Actual Result " + actualAlert + " & Expected Result " + expected + " Is Macth!");
-	}
-
-	public void invalidPhone(String wording) {
-		waitForVisible(driver, invalidPhone);
-		Actions actions = new Actions(driver);
-		actions.moveToElement(invalidPhone);
-		String actualAlert = invalidPhone.getText().toLowerCase().replace(" ", "").replace(",", "");
-		String expected = wording.toLowerCase().replace(" ", "").replace(",", "");
-		Assert.assertEquals(actualAlert, expected);
-		actions.build().perform();
-		System.out.println("Actual Result " + actualAlert + " & Expected Result " + expected + " Is Macth!");
-	}
-
-	public void invalidEmail(String wording) {
-		waitForVisible(driver, invalidEmail);
-		Actions actions = new Actions(driver);
-		actions.moveToElement(invalidEmail);
-		String actualAlert = invalidEmail.getText().toLowerCase().replace(" ", "").replace(",", "");
-		String expected = wording.toLowerCase().replace(" ", "").replace(",", "");
-		Assert.assertEquals(actualAlert, expected);
-		actions.build().perform();
-		System.out.println("Actual Result " + actualAlert + " & Expected Result " + expected + " Is Macth!");
 	}
 
 	public void inputEmail(String email) {
@@ -181,6 +124,7 @@ public class Registers {
 		actions.moveToElement(formFullname);
 		actions.click();
 		actions.sendKeys(fullname);
+		actions.build().perform();
 		System.out.println("Fullname Entered: " + fullname);
 	}
 

@@ -38,6 +38,7 @@ public class EditProfiles {
 		waitForVisible(driver, nicknameInput);
 		actions.moveToElement(nicknameInput);
 		actions.click();
+		System.out.println("Display Name is Clicked!");
 		actions.build().perform();
 	}
 	
@@ -47,10 +48,11 @@ public class EditProfiles {
 		actions.moveToElement(formField);
 		actions.click();
 		actions.sendKeys(nickname);
+		System.out.println("Nickname Entered: " + nickname);
 		actions.build().perform();
 	}
 
-	public void fullname(String fullname) {
+	public void inputFullname(String fullname) {
 		waitForVisible(driver, fullnameInput);
 		Actions actions = new Actions(driver);
 		actions.moveToElement(fullnameInput);
@@ -59,8 +61,8 @@ public class EditProfiles {
 		actions.moveToElement(formField);
 		actions.click();
 		actions.sendKeys(fullname);
+		System.out.println("Fullname Entered: " + fullname);
 		actions.build();
-		System.out.println("Fullname: " + fullname);
 	}
 
 	private void waitForVisible(WebDriver driver, WebElement element) {

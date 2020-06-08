@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,100 +91,141 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">15 methods, 2 failed,   13 passed</span>
+                    <span class="method-stats">25 methods,  25 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content skipped suite-Suite">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Login" hash-for-method="login_successByContinueWatching">login_successByContinueWatching</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Chat" hash-for-method="chat_beforeLoginGTV">chat_beforeLoginGTV</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Login" hash-for-method="login_successByMyList">login_successByMyList</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Chat" hash-for-method="chat_beforeLoginINEWS">chat_beforeLoginINEWS</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Chat" hash-for-method="chat_beforeLoginMNCTV">chat_beforeLoginMNCTV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Chat" hash-for-method="chat_beforeLoginRCTI">chat_beforeLoginRCTI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_ForgetPassword" hash-for-method="forgetpassword_emailNotRegistered">forgetpassword_emailNotRegistered</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_ForgetPassword" hash-for-method="forgetpassword_invalidEmail">forgetpassword_invalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_ForgetPassword" hash-for-method="forgetpassword_invalidPhone">forgetpassword_invalidPhone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_ForgetPassword" hash-for-method="forgetpassword_phoneNotRegistered">forgetpassword_phoneNotRegistered</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Login" hash-for-method="login_invalidEmail">login_invalidEmail</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Login" hash-for-method="login_invalidPassword">login_invalidPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Login" hash-for-method="login_invalidPhone">login_invalidPhone</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Login" hash-for-method="login_notRegisteredEmail">login_notRegisteredEmail</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Login" hash-for-method="login_notRegisteredPhone">login_notRegisteredPhone</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Login" hash-for-method="login_success">login_success</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Login" hash-for-method="login_successByAccount">login_successByAccount</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Login" hash-for-method="login_successByContinueWatching">login_successByContinueWatching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Login" hash-for-method="login_successByHistory">login_successByHistory</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Login" hash-for-method="login_successByMyList">login_successByMyList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Login" hash-for-method="login_successByQrCode">login_successByQrCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Mylist" hash-for-method="mylist_addByAccountLogin">mylist_addByAccountLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Register" hash-for-method="register_invalidEmail">register_invalidEmail</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Register" hash-for-method="register_invalidPasswordNotMatch">register_invalidPasswordNotMatch</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Register" hash-for-method="register_invalidPasswordNumChar">register_invalidPasswordNumChar</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Register" hash-for-method="register_maxCharFullname">register_maxCharFullname</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.Test_Register" hash-for-method="register_validateGender">register_validateGender</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -196,161 +237,103 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">test.Test_Login</span>
+              <img src="skipped.png"/>
+              <span class="class-name">test.Test_Register</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login_successByContinueWatching">
-                  </a> <!-- login_successByContinueWatching -->
-                  <span class="method-name">login_successByContinueWatching</span>
-                  <div class="stack-trace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MNCTVN05589&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-	at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
-	at java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:608)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-	at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
-	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
-	at org.openqa.selenium.json.Json.toJson(Json.java:42)
-	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
-	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at object.Logins.popupLogin(Logins.java:85)
-	at testcases.Login.loginByContinueWatching(Login.java:467)
-	at test.Test_Login.login_successByContinueWatching(Test_Login.java:87)
-	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MNCTVN05589&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: driver.version: RemoteWebDriver
-		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
-		at org.openqa.selenium.json.Json.toJson(Json.java:44)
-		... 37 more
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
-	... 49 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(text(),&apos;Sign In&apos;)]&quot;}
-  (Session info: headless chrome=83.0.4103.61)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MNCTVN05589&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d561a5154772826770ca3c6c64547ed8
-*** Element info: {Using=xpath, value=//button[contains(text(),&apos;Sign In&apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy7.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
-	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
-	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
-	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
-	... 53 more
-... Removed 35 stack frames
-</div> <!-- stack-trace -->
+                  <a name="register_invalidEmail">
+                  </a> <!-- register_invalidEmail -->
+                  <span class="method-name">register_invalidEmail</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="login_successByMyList">
-                  </a> <!-- login_successByMyList -->
-                  <span class="method-name">login_successByMyList</span>
-                  <div class="stack-trace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MNCTVN05589&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-	at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
-	at java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:608)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-	at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
-	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
-	at org.openqa.selenium.json.Json.toJson(Json.java:42)
-	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
-	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at object.Logins.popupLogin(Logins.java:85)
-	at testcases.Login.loginByMylist(Login.java:450)
-	at test.Test_Login.login_successByMyList(Test_Login.java:79)
-	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MNCTVN05589&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: driver.version: RemoteWebDriver
-		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
-		at org.openqa.selenium.json.Json.toJson(Json.java:44)
-		... 37 more
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
-	... 49 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(text(),&apos;Sign In&apos;)]&quot;}
-  (Session info: headless chrome=83.0.4103.61)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MNCTVN05589&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62180}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 8347b7483b38205071a9d65852667ac5
-*** Element info: {Using=xpath, value=//button[contains(text(),&apos;Sign In&apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy7.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
-	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
-	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
-	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
-	... 53 more
-... Removed 35 stack frames
-</div> <!-- stack-trace -->
+                  <a name="register_invalidPasswordNotMatch">
+                  </a> <!-- register_invalidPasswordNotMatch -->
+                  <span class="method-name">register_invalidPasswordNotMatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register_invalidPasswordNumChar">
+                  </a> <!-- register_invalidPasswordNumChar -->
+                  <span class="method-name">register_invalidPasswordNumChar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register_maxCharFullname">
+                  </a> <!-- register_maxCharFullname -->
+                  <span class="method-name">register_maxCharFullname</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register_validateGender">
+                  </a> <!-- register_validateGender -->
+                  <span class="method-name">register_validateGender</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
+              <span class="class-name">test.Test_Mylist</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="mylist_addByAccountLogin">
+                  </a> <!-- mylist_addByAccountLogin -->
+                  <span class="method-name">mylist_addByAccountLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test.Test_ForgetPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgetpassword_emailNotRegistered">
+                  </a> <!-- forgetpassword_emailNotRegistered -->
+                  <span class="method-name">forgetpassword_emailNotRegistered</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgetpassword_invalidEmail">
+                  </a> <!-- forgetpassword_invalidEmail -->
+                  <span class="method-name">forgetpassword_invalidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgetpassword_invalidPhone">
+                  </a> <!-- forgetpassword_invalidPhone -->
+                  <span class="method-name">forgetpassword_invalidPhone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgetpassword_phoneNotRegistered">
+                  </a> <!-- forgetpassword_phoneNotRegistered -->
+                  <span class="method-name">forgetpassword_phoneNotRegistered</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
               <span class="class-name">test.Test_Login</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -405,56 +388,70 @@ Session ID: 8347b7483b38205071a9d65852667ac5
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="login_successByContinueWatching">
+                  </a> <!-- login_successByContinueWatching -->
+                  <span class="method-name">login_successByContinueWatching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="login_successByHistory">
                   </a> <!-- login_successByHistory -->
                   <span class="method-name">login_successByHistory</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_successByMyList">
+                  </a> <!-- login_successByMyList -->
+                  <span class="method-name">login_successByMyList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_successByQrCode">
+                  </a> <!-- login_successByQrCode -->
+                  <span class="method-name">login_successByQrCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">test.Test_Register</span>
+              <img src="skipped.png"/>
+              <span class="class-name">test.Test_Chat</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="register_invalidEmail">
-                  </a> <!-- register_invalidEmail -->
-                  <span class="method-name">register_invalidEmail</span>
+                  <a name="chat_beforeLoginGTV">
+                  </a> <!-- chat_beforeLoginGTV -->
+                  <span class="method-name">chat_beforeLoginGTV</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="register_invalidPasswordNotMatch">
-                  </a> <!-- register_invalidPasswordNotMatch -->
-                  <span class="method-name">register_invalidPasswordNotMatch</span>
+                  <a name="chat_beforeLoginINEWS">
+                  </a> <!-- chat_beforeLoginINEWS -->
+                  <span class="method-name">chat_beforeLoginINEWS</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="register_invalidPasswordNumChar">
-                  </a> <!-- register_invalidPasswordNumChar -->
-                  <span class="method-name">register_invalidPasswordNumChar</span>
+                  <a name="chat_beforeLoginMNCTV">
+                  </a> <!-- chat_beforeLoginMNCTV -->
+                  <span class="method-name">chat_beforeLoginMNCTV</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="register_maxCharFullname">
-                  </a> <!-- register_maxCharFullname -->
-                  <span class="method-name">register_maxCharFullname</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="register_validateGender">
-                  </a> <!-- register_validateGender -->
-                  <span class="method-name">register_validateGender</span>
+                  <a name="chat_beforeLoginRCTI">
+                  </a> <!-- chat_beforeLoginRCTI -->
+                  <span class="method-name">chat_beforeLoginRCTI</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-skipped -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -464,35 +461,66 @@ Session ID: 8347b7483b38205071a9d65852667ac5
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
-  &lt;test name=&quot;Test Register&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;test.Test_Chat&quot;/&gt;
       &lt;class name=&quot;test.Test_Register&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test Register --&gt;
-  &lt;test name=&quot;Test Login&quot;&gt;
-    &lt;classes&gt;
+      &lt;class name=&quot;test.Test_Mylist&quot;/&gt;
+      &lt;class name=&quot;test.Test_ForgetPassword&quot;/&gt;
       &lt;class name=&quot;test.Test_Login&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test Login --&gt;
-  &lt;test name=&quot;Test Login(failed)&quot;&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test name=&quot;Test(failed)&quot; parallel=&quot;tests&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;test.Test_Mylist&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;mylist_addByAccountLogin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.Test_Mylist --&gt;
+      &lt;class name=&quot;test.Test_Register&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;register_validateGender&quot;/&gt;
+          &lt;include name=&quot;register_invalidPasswordNumChar&quot;/&gt;
+          &lt;include name=&quot;register_invalidPasswordNotMatch&quot;/&gt;
+          &lt;include name=&quot;register_maxCharFullname&quot;/&gt;
+          &lt;include name=&quot;register_invalidEmail&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.Test_Register --&gt;
+      &lt;class name=&quot;test.Test_ForgetPassword&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;forgetpassword_invalidEmail&quot;/&gt;
+          &lt;include name=&quot;forgetpassword_emailNotRegistered&quot;/&gt;
+          &lt;include name=&quot;forgetpassword_invalidPhone&quot;/&gt;
+          &lt;include name=&quot;forgetpassword_phoneNotRegistered&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.Test_ForgetPassword --&gt;
       &lt;class name=&quot;test.Test_Login&quot;&gt;
         &lt;methods&gt;
+          &lt;include name=&quot;login_notRegisteredEmail&quot;/&gt;
+          &lt;include name=&quot;login_successByAccount&quot;/&gt;
+          &lt;include name=&quot;login_invalidPhone&quot;/&gt;
           &lt;include name=&quot;login_successByContinueWatching&quot;/&gt;
-          &lt;include name=&quot;done&quot;/&gt;
-          &lt;include name=&quot;set&quot;/&gt;
+          &lt;include name=&quot;login_successByHistory&quot;/&gt;
+          &lt;include name=&quot;login_notRegisteredPhone&quot;/&gt;
+          &lt;include name=&quot;login_success&quot;/&gt;
+          &lt;include name=&quot;login_invalidPassword&quot;/&gt;
+          &lt;include name=&quot;login_successByQrCode&quot;/&gt;
+          &lt;include name=&quot;login_invalidEmail&quot;/&gt;
           &lt;include name=&quot;login_successByMyList&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- test.Test_Login --&gt;
-      &lt;class name=&quot;test.Test_Register&quot;&gt;
+      &lt;class name=&quot;test.Test_Chat&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;done&quot;/&gt;
+          &lt;include name=&quot;chat_beforeLoginINEWS&quot;/&gt;
+          &lt;include name=&quot;chat_beforeLoginMNCTV&quot;/&gt;
+          &lt;include name=&quot;chat_beforeLoginGTV&quot;/&gt;
+          &lt;include name=&quot;chat_beforeLoginRCTI&quot;/&gt;
           &lt;include name=&quot;set&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- test.Test_Register --&gt;
+      &lt;/class&gt; &lt;!-- test.Test_Chat --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test Login(failed) --&gt;
+  &lt;/test&gt; &lt;!-- Test(failed) --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -504,13 +532,10 @@ Session ID: 8347b7483b38205071a9d65852667ac5
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test Register (1 class)</span>
+                <span class="test-name">Test (5 classes)</span>
               </li>
               <li>
-                <span class="test-name">Test Login (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Test Login(failed) (2 classes)</span>
+                <span class="test-name">Test(failed) (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -536,72 +561,112 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(15);
+data.addRows(25);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login_successByContinueWatching')
 data.setCell(0, 2, 'test.Test_Login')
-data.setCell(0, 3, 111808);
+data.setCell(0, 3, 10);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'login_successByMyList')
-data.setCell(1, 2, 'test.Test_Login')
-data.setCell(1, 3, 110384);
+data.setCell(1, 1, 'forgetpassword_phoneNotRegistered')
+data.setCell(1, 2, 'test.Test_ForgetPassword')
+data.setCell(1, 3, 1);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'login_successByHistory')
-data.setCell(2, 2, 'test.Test_Login')
-data.setCell(2, 3, 50149);
+data.setCell(2, 1, 'chat_beforeLoginGTV')
+data.setCell(2, 2, 'test.Test_Chat')
+data.setCell(2, 3, 1);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'login_successByAccount')
-data.setCell(3, 2, 'test.Test_Login')
-data.setCell(3, 3, 42851);
+data.setCell(3, 1, 'forgetpassword_invalidPhone')
+data.setCell(3, 2, 'test.Test_ForgetPassword')
+data.setCell(3, 3, 1);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'login_success')
-data.setCell(4, 2, 'test.Test_Login')
-data.setCell(4, 3, 32269);
+data.setCell(4, 1, 'chat_beforeLoginRCTI')
+data.setCell(4, 2, 'test.Test_Chat')
+data.setCell(4, 3, 1);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'login_notRegisteredPhone')
-data.setCell(5, 2, 'test.Test_Login')
-data.setCell(5, 3, 27274);
+data.setCell(5, 1, 'forgetpassword_invalidEmail')
+data.setCell(5, 2, 'test.Test_ForgetPassword')
+data.setCell(5, 3, 1);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'login_invalidPassword')
-data.setCell(6, 2, 'test.Test_Login')
-data.setCell(6, 3, 26919);
+data.setCell(6, 1, 'chat_beforeLoginINEWS')
+data.setCell(6, 2, 'test.Test_Chat')
+data.setCell(6, 3, 1);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'login_invalidPhone')
-data.setCell(7, 2, 'test.Test_Login')
-data.setCell(7, 3, 26201);
+data.setCell(7, 1, 'register_invalidEmail')
+data.setCell(7, 2, 'test.Test_Register')
+data.setCell(7, 3, 1);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'login_notRegisteredEmail')
+data.setCell(8, 1, 'login_invalidPhone')
 data.setCell(8, 2, 'test.Test_Login')
-data.setCell(8, 3, 25480);
+data.setCell(8, 3, 0);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'login_invalidEmail')
-data.setCell(9, 2, 'test.Test_Login')
-data.setCell(9, 3, 25159);
+data.setCell(9, 1, 'register_validateGender')
+data.setCell(9, 2, 'test.Test_Register')
+data.setCell(9, 3, 0);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'register_invalidEmail')
+data.setCell(10, 1, 'register_maxCharFullname')
 data.setCell(10, 2, 'test.Test_Register')
-data.setCell(10, 3, 19262);
+data.setCell(10, 3, 0);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'register_invalidPasswordNotMatch')
-data.setCell(11, 2, 'test.Test_Register')
-data.setCell(11, 3, 13988);
+data.setCell(11, 1, 'forgetpassword_emailNotRegistered')
+data.setCell(11, 2, 'test.Test_ForgetPassword')
+data.setCell(11, 3, 0);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'register_maxCharFullname')
-data.setCell(12, 2, 'test.Test_Register')
-data.setCell(12, 3, 13547);
+data.setCell(12, 1, 'login_successByAccount')
+data.setCell(12, 2, 'test.Test_Login')
+data.setCell(12, 3, 0);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'register_invalidPasswordNumChar')
-data.setCell(13, 2, 'test.Test_Register')
-data.setCell(13, 3, 12594);
+data.setCell(13, 1, 'login_invalidEmail')
+data.setCell(13, 2, 'test.Test_Login')
+data.setCell(13, 3, 0);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'register_validateGender')
-data.setCell(14, 2, 'test.Test_Register')
-data.setCell(14, 3, 11937);
+data.setCell(14, 1, 'login_invalidPassword')
+data.setCell(14, 2, 'test.Test_Login')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'login_successByQrCode')
+data.setCell(15, 2, 'test.Test_Login')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'chat_beforeLoginMNCTV')
+data.setCell(16, 2, 'test.Test_Chat')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'login_notRegisteredEmail')
+data.setCell(17, 2, 'test.Test_Login')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'register_invalidPasswordNotMatch')
+data.setCell(18, 2, 'test.Test_Register')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'login_successByHistory')
+data.setCell(19, 2, 'test.Test_Login')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'login_notRegisteredPhone')
+data.setCell(20, 2, 'test.Test_Login')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'login_successByMyList')
+data.setCell(21, 2, 'test.Test_Login')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'register_invalidPasswordNumChar')
+data.setCell(22, 2, 'test.Test_Register')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'login_success')
+data.setCell(23, 2, 'test.Test_Login')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'mylist_addByAccountLogin')
+data.setCell(24, 2, 'test.Test_Mylist')
+data.setCell(24, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 minutes</span>
+              <span class="suite-total-time">Total running time: 17 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -627,194 +692,152 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test.Test_Register</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test.Test_Chat</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">set</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">register_invalidEmail</span>
-                <span class="method-start">6564 ms</span>
+                <span class="method-name">chat_beforeLoginRCTI</span>
+                <span class="method-start">4710 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">done</span>
-                <span class="method-start">25827 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">set</span>
-                <span class="method-start">27035 ms</span>
-              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Test_Register</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">register_invalidEmail</span>
+                <span class="method-start">4711 ms</span>
+              </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">register_invalidPasswordNotMatch</span>
-                <span class="method-start">32107 ms</span>
+                <span class="method-start">4712 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">done</span>
-                <span class="method-start">46096 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">set</span>
-                <span class="method-start">47513 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">register_invalidPasswordNumChar</span>
-                <span class="method-start">52143 ms</span>
+                <span class="method-start">4713 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">done</span>
-                <span class="method-start">64737 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">set</span>
-                <span class="method-start">65936 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">register_maxCharFullname</span>
-                <span class="method-start">70595 ms</span>
+                <span class="method-start">4714 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">done</span>
-                <span class="method-start">84143 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">set</span>
-                <span class="method-start">85557 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">register_validateGender</span>
-                <span class="method-start">90176 ms</span>
+                <span class="method-start">4715 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">done</span>
-                <span class="method-start">102114 ms</span>
-              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Test_ForgetPassword</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">forgetpassword_invalidEmail</span>
+                <span class="method-start">4716 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Test_Mylist</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">mylist_addByAccountLogin</span>
+                <span class="method-start">4716 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.Test_Login</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">set</span>
-                <span class="method-start">103297 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_invalidEmail</span>
-                <span class="method-start">107697 ms</span>
+                <span class="method-start">4717 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">done</span>
-                <span class="method-start">132856 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">set</span>
-                <span class="method-start">134150 ms</span>
-              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Test_Chat</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">chat_beforeLoginMNCTV</span>
+                <span class="method-start">4718 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Test_ForgetPassword</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">forgetpassword_invalidPhone</span>
+                <span class="method-start">4718 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Test_Login</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">login_invalidPassword</span>
-                <span class="method-start">139072 ms</span>
+                <span class="method-start">4719 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">done</span>
-                <span class="method-start">165991 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">set</span>
-                <span class="method-start">167264 ms</span>
-              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Test_Chat</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">chat_beforeLoginGTV</span>
+                <span class="method-start">4724 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Test_ForgetPassword</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">forgetpassword_emailNotRegistered</span>
+                <span class="method-start">4726 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Test_Login</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">login_invalidPhone</span>
-                <span class="method-start">172090 ms</span>
+                <span class="method-start">4727 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">done</span>
-                <span class="method-start">198291 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">set</span>
-                <span class="method-start">199608 ms</span>
-              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Test_Chat</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">chat_beforeLoginINEWS</span>
+                <span class="method-start">4728 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Test_ForgetPassword</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">forgetpassword_phoneNotRegistered</span>
+                <span class="method-start">4729 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Test_Login</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">login_notRegisteredEmail</span>
-                <span class="method-start">204342 ms</span>
+                <span class="method-start">4730 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">done</span>
-                <span class="method-start">229822 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">set</span>
-                <span class="method-start">231112 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_notRegisteredPhone</span>
-                <span class="method-start">235932 ms</span>
+                <span class="method-start">4731 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">done</span>
-                <span class="method-start">263206 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">set</span>
-                <span class="method-start">264598 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_success</span>
-                <span class="method-start">269273 ms</span>
+                <span class="method-start">4731 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">done</span>
-                <span class="method-start">301543 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">set</span>
-                <span class="method-start">302896 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_successByAccount</span>
-                <span class="method-start">307623 ms</span>
+                <span class="method-start">4732 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">done</span>
-                <span class="method-start">350474 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">set</span>
-                <span class="method-start">351807 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">login_successByContinueWatching</span>
-                <span class="method-start">356617 ms</span>
+                <span class="method-start">4732 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">done</span>
-                <span class="method-start">468434 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">set</span>
-                <span class="method-start">469771 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_successByHistory</span>
-                <span class="method-start">474479 ms</span>
+                <span class="method-start">4742 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">done</span>
-                <span class="method-start">524628 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">set</span>
-                <span class="method-start">525928 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">login_successByMyList</span>
-                <span class="method-start">530660 ms</span>
+                <span class="method-start">4743 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">done</span>
-                <span class="method-start">641046 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">login_successByQrCode</span>
+                <span class="method-start">4744 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
