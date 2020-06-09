@@ -1,62 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test Register">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="5" name="Test">
     <classes>
+      <class name="test.Test_Chat"/>
       <class name="test.Test_Register"/>
-    </classes>
-  </test> <!-- Test Register -->
-  <test name="Test Login">
-    <classes>
+      <class name="test.Test_Mylist"/>
+      <class name="test.Test_ForgetPassword"/>
       <class name="test.Test_Login"/>
     </classes>
-  </test> <!-- Test Login -->
-  <test name="Test excel">
+  </test> <!-- Test -->
+  <test name="Test(failed)" parallel="classes">
     <classes>
-      <class name="reporter.Excel"/>
-    </classes>
-  </test> <!-- Test excel -->
-  <test name="Test Login(failed)">
-    <classes>
+      <class name="test.Test_Mylist">
+        <methods>
+          <include name="done"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- test.Test_Mylist -->
+      <class name="test.Test_Login">
+        <methods>
+          <include name="done"/>
+          <include name="set"/>
+          <include name="login_successByQrCode"/>
+        </methods>
+      </class> <!-- test.Test_Login -->
       <class name="test.Test_Register">
         <methods>
-          <include name="export"/>
           <include name="done"/>
           <include name="set"/>
         </methods>
       </class> <!-- test.Test_Register -->
-      <class name="test.Test_Login">
+      <class name="test.Test_Chat">
         <methods>
-          <include name="export"/>
-          <include name="login_successByContinueWatching"/>
           <include name="done"/>
           <include name="set"/>
-          <include name="login_successByMyList"/>
         </methods>
-      </class> <!-- test.Test_Login -->
+      </class> <!-- test.Test_Chat -->
+      <class name="test.Test_ForgetPassword">
+        <methods>
+          <include name="done"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- test.Test_ForgetPassword -->
     </classes>
-  </test> <!-- Test Login(failed) -->
-  <test name="Test excel(failed)">
-    <classes>
-      <class name="reporter.Excel">
-        <methods>
-          <include name="generateExcelReport"/>
-        </methods>
-      </class> <!-- reporter.Excel -->
-      <class name="test.Test_Register">
-        <methods>
-          <include name="export"/>
-          <include name="done"/>
-          <include name="set"/>
-        </methods>
-      </class> <!-- test.Test_Register -->
-      <class name="test.Test_Login">
-        <methods>
-          <include name="export"/>
-          <include name="done"/>
-          <include name="set"/>
-        </methods>
-      </class> <!-- test.Test_Login -->
-    </classes>
-  </test> <!-- Test excel(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

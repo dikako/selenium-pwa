@@ -6,7 +6,9 @@ D:\selenium\src\test\java\config\Setup.java
 D:\selenium\src\test\java\object\MenuAccounts.java
 D:\selenium\src\test\java\reporter\Excel.java
 D:\selenium\src\test\java\utility\TakeScreenshot.java
+D:\selenium\src\test\java\test\Test_EditProfile.java
 D:\selenium\src\test\java\testcases\Login.java
+D:\selenium\src\test\java\wordings\Wording_EditProfile.java
 D:\selenium\src\test\java\config\Url.java
 D:\selenium\src\test\java\object\Mailinators.java
 D:\selenium\src\test\java\testcases\Register.java
@@ -23,3 +25,4 @@ D:\selenium\src\test\java\wordings\Wording_Login.java
 D:\selenium\src\test\java\test\Test_Chat.java
 D:\selenium\src\test\java\object\EditProfiles.java
 D:\selenium\src\test\java\test\Test_Login.java
+D:\selenium\src\test\java\testcases\EditProfile.java
