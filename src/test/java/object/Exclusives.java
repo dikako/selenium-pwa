@@ -25,7 +25,7 @@ public class Exclusives {
 	@FindBy(how = How.CLASS_NAME, className = "sheet-title")
 	WebElement titleListShare;
 	
-	@FindBy(how = How.XPATH, xpath = "//div[@class='modal-content']//*[local-name()='svg']")
+	@FindBy(how = How.ID, id = "close-action-sheet")
 	WebElement closeButtonListShare;
 
 	public Exclusives(WebDriver driver) {

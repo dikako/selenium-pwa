@@ -1,5 +1,9 @@
 package object;
 
+import java.util.ArrayList;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -24,8 +28,39 @@ public class ForgetPasswords {
 	@FindBy(how = How.ID, id = "invalid-feedback")
 	WebElement alertWording;
 	
+	@FindBy(how = How.ID, id = "addOverlay")
+	WebElement inputEmailMailinator;
+	
+	@FindBy(how = How.ID, id = "go-to-public")
+	WebElement goInboxMailinator;
+	
 	public ForgetPasswords(WebDriver driver) {
 		this.driver = driver;
+	}
+	
+	public void openNewTab(String url, String username) {
+		WebElement body = driver.findElement(By.cssSelector("body"));
+		body.sendKeys(Keys.CONTROL + "t");
+		
+		ArrayList<String> tabs2 = new ArrayList<String> (driver.getWindowHandles());
+	    driver.switchTo().window(tabs2.get(0));
+//	    driver.close();
+//	    driver.switchTo().window(tabs2.get(0));
+	    
+		driver.get(url);
+		
+		waitForVisible(driver, inputEmailMailinator);
+		Actions actions = new Actions(driver);
+		actions.moveToElement(inputEmailMailinator);
+		actions.click();
+		actions.sendKeys(username);
+		System.out.println(driver.getCurrentUrl());
+		actions.build().perform();
+		
+		waitForVisible(driver, goInboxMailinator);
+		actions.moveToElement(goInboxMailinator);
+		actions.click();
+		actions.build().perform();
 	}
 	
 	public void forgotPasswordLink() {
@@ -76,4 +111,6 @@ public class ForgetPasswords {
 			e.printStackTrace();
 		}
 	}
+
+
 }

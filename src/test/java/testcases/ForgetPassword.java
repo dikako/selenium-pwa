@@ -1,5 +1,8 @@
 package testcases;
 
+import java.util.ArrayList;
+import java.util.Random;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
@@ -8,13 +11,21 @@ import object.ForgetPasswords;
 public class ForgetPassword {
 	WebDriver driver;
 	
+	Random random = new Random();
+	int n = random.nextInt(10000000);
+	
 	public ForgetPassword(WebDriver driver) {
 		this.driver = driver;
 	}
 	
 	public void fotgetPassword() {
-		//String username = "paijo@mailinator.com";
-		
+		String url = "mailinator.com";
+		String username = "qateam" + n;
+		ForgetPasswords fp = PageFactory.initElements(driver, ForgetPasswords.class);
+		fp.inputUsernameForgetPassword(username);
+		fp.buttonForgetPassword();
+		fp.openNewTab(url, username);
+
 	}
 	
 	public void invalidEmail() {

@@ -9,7 +9,7 @@ import testcases.Exclusive;
 @Test
 public class Test_Exclusive extends Setup{
 	@Test(priority = 0)
-	public void validateProgramThumbnail() {
+	public void exclusive_validateProgramThumbnail() {
 		Exclusive page = new Exclusive(driver);
 		Url url = new Url(driver);
 		url.defaultUrl();
@@ -17,7 +17,7 @@ public class Test_Exclusive extends Setup{
 	}
 	
 	@Test(priority = 1)
-	public void validateListCountShare() {
+	public void exclusive_validateListCountShare() {
 		Exclusive page = new Exclusive(driver);
 		Url url = new Url(driver);
 		url.defaultUrl();
@@ -25,7 +25,7 @@ public class Test_Exclusive extends Setup{
 	}
 	
 	@Test(priority = 2)
-	public void validateListShareByLabel() {
+	public void exclusive_validateListShareByLabel() {
 		Exclusive page = new Exclusive(driver);
 		Url url = new Url(driver);
 		url.defaultUrl();
@@ -33,7 +33,7 @@ public class Test_Exclusive extends Setup{
 	}
 	
 	@Test(priority = 3)
-	public void validateShareByFb() throws InterruptedException {
+	public void exclusive_validateShareByFb() throws InterruptedException {
 		Exclusive page = new Exclusive(driver);
 		Url url = new Url(driver);
 		url.defaultUrl();
@@ -41,7 +41,7 @@ public class Test_Exclusive extends Setup{
 	}
 	
 	@Test(priority = 3)
-	public void validateShareByTwitter() throws InterruptedException {
+	public void exclusive_validateShareByTwitter() throws InterruptedException {
 		Exclusive page = new Exclusive(driver);
 		Url url = new Url(driver);
 		url.defaultUrl();
@@ -49,7 +49,7 @@ public class Test_Exclusive extends Setup{
 	}
 	
 	@Test(priority = 3)
-	public void validateShareByLine() throws InterruptedException {
+	public void exclusive_validateShareByLine() throws InterruptedException {
 		Exclusive page = new Exclusive(driver);
 		Url url = new Url(driver);
 		url.defaultUrl();
@@ -57,7 +57,7 @@ public class Test_Exclusive extends Setup{
 	}
 	
 	@Test(priority = 3)
-	public void validateShareByMail() throws InterruptedException {
+	public void exclusive_validateShareByMail() throws InterruptedException {
 		Exclusive page = new Exclusive(driver);
 		Url url = new Url(driver);
 		url.defaultUrl();
@@ -65,7 +65,7 @@ public class Test_Exclusive extends Setup{
 	}
 	
 	@Test(priority = 3)
-	public void validateShareByWhatsapp() throws InterruptedException {
+	public void exclusive_validateShareByWhatsapp() throws InterruptedException {
 		Exclusive page = new Exclusive(driver);
 		Url url = new Url(driver);
 		url.defaultUrl();
@@ -73,7 +73,7 @@ public class Test_Exclusive extends Setup{
 	}
 	
 	@Test(priority = 4)
-	public void validateCloseListShare() throws InterruptedException {
+	public void exclusive_validateCloseListShare() throws InterruptedException {
 		Exclusive page = new Exclusive(driver);
 		Url url = new Url(driver);
 		url.defaultUrl();
