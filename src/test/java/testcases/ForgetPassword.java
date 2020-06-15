@@ -13,7 +13,7 @@ public class ForgetPassword {
 	}
 	
 	public void fotgetPassword() {
-		String username = "paijo@mailinator.com";
+		//String username = "paijo@mailinator.com";
 		
 	}
 	

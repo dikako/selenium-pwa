@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
-  <test thread-count="4" name="Test">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="5" name="Test">
     <classes>
       <class name="test.Test_Chat"/>
       <class name="test.Test_Register"/>
@@ -10,51 +10,42 @@
       <class name="test.Test_Login"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test(failed)" parallel="tests">
+  <test name="Test(failed)" parallel="classes">
     <classes>
       <class name="test.Test_Mylist">
         <methods>
           <include name="mylist_addByAccountLogin"/>
+          <include name="done"/>
+          <include name="set"/>
         </methods>
       </class> <!-- test.Test_Mylist -->
+      <class name="test.Test_Login">
+        <methods>
+          <include name="login_successByAccount"/>
+          <include name="done"/>
+          <include name="set"/>
+          <include name="login_successByQrCode"/>
+        </methods>
+      </class> <!-- test.Test_Login -->
       <class name="test.Test_Register">
         <methods>
-          <include name="register_validateGender"/>
-          <include name="register_invalidPasswordNumChar"/>
-          <include name="register_invalidPasswordNotMatch"/>
-          <include name="register_maxCharFullname"/>
-          <include name="register_invalidEmail"/>
+          <include name="done"/>
+          <include name="set"/>
         </methods>
       </class> <!-- test.Test_Register -->
       <class name="test.Test_ForgetPassword">
         <methods>
-          <include name="forgetpassword_invalidEmail"/>
-          <include name="forgetpassword_emailNotRegistered"/>
-          <include name="forgetpassword_invalidPhone"/>
-          <include name="forgetpassword_phoneNotRegistered"/>
+          <include name="done"/>
+          <include name="set"/>
         </methods>
       </class> <!-- test.Test_ForgetPassword -->
-      <class name="test.Test_Login">
-        <methods>
-          <include name="login_notRegisteredEmail"/>
-          <include name="login_successByAccount"/>
-          <include name="login_invalidPhone"/>
-          <include name="login_successByContinueWatching"/>
-          <include name="login_successByHistory"/>
-          <include name="login_notRegisteredPhone"/>
-          <include name="login_success"/>
-          <include name="login_invalidPassword"/>
-          <include name="login_successByQrCode"/>
-          <include name="login_invalidEmail"/>
-          <include name="login_successByMyList"/>
-        </methods>
-      </class> <!-- test.Test_Login -->
       <class name="test.Test_Chat">
         <methods>
           <include name="chat_beforeLoginINEWS"/>
           <include name="chat_beforeLoginMNCTV"/>
           <include name="chat_beforeLoginGTV"/>
           <include name="chat_beforeLoginRCTI"/>
+          <include name="done"/>
           <include name="set"/>
         </methods>
       </class> <!-- test.Test_Chat -->

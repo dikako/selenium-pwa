@@ -14,7 +14,7 @@ public class Chat {
 	}
 
 	public void chatRcti() {
-		String userChat = "dikakoko";
+		String userChat = "dikakokodikakoko";
 		String textMessage = "Test Selamat siang semua!";
 
 		Chats chat = PageFactory.initElements(driver, Chats.class);
@@ -32,7 +32,7 @@ public class Chat {
 	}
 
 	public void chatMnctv() {
-		String userChat = "dikakoko";
+		String userChat = "dikakokodikakoko";
 		String textMessage = "Test Selamat siang semua!";
 
 		Chats chat = PageFactory.initElements(driver, Chats.class);
@@ -50,7 +50,7 @@ public class Chat {
 	}
 
 	public void chatGtv() {
-		String userChat = "dikakoko";
+		String userChat = "dikakokodikakoko";
 		String textMessage = "Test Selamat siang semua!";
 
 		Chats chat = PageFactory.initElements(driver, Chats.class);
@@ -68,7 +68,7 @@ public class Chat {
 	}
 
 	public void chatInews() {
-		String userChat = "dikakoko";
+		String userChat = "dikakokodikakoko";
 		String textMessage = "Test Selamat siang semua!";
 
 		Chats chat = PageFactory.initElements(driver, Chats.class);

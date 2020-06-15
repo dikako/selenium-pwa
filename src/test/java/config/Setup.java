@@ -47,9 +47,9 @@ public class Setup {
 
 	@AfterMethod
 	public void done(ITestResult result) {
-		
+		String name = result.getName();
 		if(ITestResult.FAILURE==result.getStatus()) {
-			TakeScreenshot.captureScreenshot(driver, result.getName());
+			TakeScreenshot.captureScreenshot(driver, name);
 		}
 		driver.quit();
 	}

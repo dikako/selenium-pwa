@@ -1,0 +1,25 @@
+# Created at 2020-06-09T20:47:48.786
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream ':maven:surefire:std:out:test-failed:normal-run:UTF-8:dGVzdC5UZXN0X0NoYXQ=:-::-:-:ZXhwZWN0ZWQgW2Rpa2Frb2tvXSBidXQgZm91bmQgW2Rpa2Frb2tvZGlrYWtva29d:-:ZXhwZWN0ZWQgW2Rpa2Frb2tvXSBidXQgZm91bmQgW2Rpa2Frb2tvZGlrYWtva29d:VGVzdF9DaGF0LmNoYXRfYmVmb3JlTG9naW5SQ1RJOjE2IGV4cGVjdGVkIFtkaWtha29rb10gYnV0IGZvdW5kIFtkaWtha29rb2Rpa2Frb2tvXQ==:amF2YS5sYW5nLkFzc2VydGlvbkVycm9yOiBleHBlY3RlZCBbZGlrYWtva29dIGJ1dCBmb3VuZCBbZGlrYWtva29kaWtha29rb10KCWF0IHRlc3QuVGVzdF9DaGF0LmNoYXRfYmVmb3JlTG9naW5SQ1RJKFRlc3RfQ2hhdC5qYXZhOjE2KQo='.
+java.lang.NumberFormatException: For input string: "ZXhwZWN0ZWQgW2Rpa2Frb2tvXSBidXQgZm91bmQgW2Rpa2Frb2tvZGlrYWtva29d"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at java.lang.Integer.decode(Unknown Source)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkedChannelDecoder.decodeToInteger(ForkedChannelDecoder.java:334)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkedChannelDecoder.toReportEntry(ForkedChannelDecoder.java:318)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkedChannelDecoder.handleEvent(ForkedChannelDecoder.java:273)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:409)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:379)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created at 2020-06-09T20:48:10.956
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: EXIT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:113)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:383)
+	at java.lang.Thread.run(Unknown Source)
+
+

@@ -1,42 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
-  <test thread-count="5" name="Test">
+  <test thread-count="1" name="Login Test">
     <classes>
-      <class name="test.Test_Chat"/>
-      <class name="test.Test_Register"/>
-      <class name="test.Test_Mylist"/>
-      <class name="test.Test_ForgetPassword"/>
       <class name="test.Test_Login"/>
     </classes>
-  </test> <!-- Test -->
-  <test name="Test(failed)" parallel="classes">
+  </test> <!-- Login Test -->
+  <test thread-count="1" name="Chat Test">
     <classes>
-      <class name="test.Test_Mylist">
-        <methods>
-          <include name="done"/>
-          <include name="set"/>
-        </methods>
-      </class> <!-- test.Test_Mylist -->
-      <class name="test.Test_Login">
-        <methods>
-          <include name="done"/>
-          <include name="set"/>
-          <include name="login_successByQrCode"/>
-        </methods>
-      </class> <!-- test.Test_Login -->
-      <class name="test.Test_Register">
-        <methods>
-          <include name="done"/>
-          <include name="set"/>
-        </methods>
-      </class> <!-- test.Test_Register -->
+      <class name="test.Test_Chat"/>
+    </classes>
+  </test> <!-- Chat Test -->
+  <test thread-count="1" name="Register Test">
+    <classes>
+      <class name="test.Test_Register"/>
+    </classes>
+  </test> <!-- Register Test -->
+  <test thread-count="1" name="My List Test">
+    <classes>
+      <class name="test.Test_Mylist"/>
+    </classes>
+  </test> <!-- My List Test -->
+  <test thread-count="1" name="Forget Password Test">
+    <classes>
+      <class name="test.Test_ForgetPassword"/>
+    </classes>
+  </test> <!-- Forget Password Test -->
+  <test name="Login Test(failed)" parallel="classes">
+    <classes>
       <class name="test.Test_Chat">
         <methods>
           <include name="done"/>
           <include name="set"/>
         </methods>
       </class> <!-- test.Test_Chat -->
+      <class name="test.Test_Mylist">
+        <methods>
+          <include name="done"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- test.Test_Mylist -->
+      <class name="test.Test_Register">
+        <methods>
+          <include name="done"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- test.Test_Register -->
+      <class name="test.Test_Login">
+        <methods>
+          <include name="login_successByAccount"/>
+          <include name="login_successByContinueWatching"/>
+          <include name="login_successByHistory"/>
+          <include name="done"/>
+          <include name="set"/>
+          <include name="login_successByQrCode"/>
+        </methods>
+      </class> <!-- test.Test_Login -->
       <class name="test.Test_ForgetPassword">
         <methods>
           <include name="done"/>
@@ -44,5 +63,78 @@
         </methods>
       </class> <!-- test.Test_ForgetPassword -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Login Test(failed) -->
+  <test name="Chat Test(failed)" parallel="classes">
+    <classes>
+      <class name="test.Test_Chat">
+        <methods>
+          <include name="chat_beforeLoginINEWS"/>
+          <include name="chat_beforeLoginMNCTV"/>
+          <include name="chat_beforeLoginGTV"/>
+          <include name="chat_beforeLoginRCTI"/>
+          <include name="done"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- test.Test_Chat -->
+      <class name="test.Test_Mylist">
+        <methods>
+          <include name="done"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- test.Test_Mylist -->
+      <class name="test.Test_Register">
+        <methods>
+          <include name="done"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- test.Test_Register -->
+      <class name="test.Test_Login">
+        <methods>
+          <include name="done"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- test.Test_Login -->
+      <class name="test.Test_ForgetPassword">
+        <methods>
+          <include name="done"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- test.Test_ForgetPassword -->
+    </classes>
+  </test> <!-- Chat Test(failed) -->
+  <test name="My List Test(failed)" parallel="classes">
+    <classes>
+      <class name="test.Test_Chat">
+        <methods>
+          <include name="done"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- test.Test_Chat -->
+      <class name="test.Test_Mylist">
+        <methods>
+          <include name="mylist_addByAccountLogin"/>
+          <include name="done"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- test.Test_Mylist -->
+      <class name="test.Test_Register">
+        <methods>
+          <include name="done"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- test.Test_Register -->
+      <class name="test.Test_Login">
+        <methods>
+          <include name="done"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- test.Test_Login -->
+      <class name="test.Test_ForgetPassword">
+        <methods>
+          <include name="done"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- test.Test_ForgetPassword -->
+    </classes>
+  </test> <!-- My List Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

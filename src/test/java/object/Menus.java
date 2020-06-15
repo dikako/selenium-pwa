@@ -140,8 +140,8 @@ public class Menus {
 		Actions actions = new Actions(driver);
 		actions.moveToElement(exclusive);
 		actions.click();
-		System.out.println("Home is Cliked!");
 		actions.build().perform();
+		System.out.println("Exclusive is Cliked!");
 	}
 
 	public void radio() {
@@ -149,8 +149,8 @@ public class Menus {
 		Actions actions = new Actions(driver);
 		actions.moveToElement(radio);
 		actions.click();
-		System.out.println("Home is Cliked!");
 		actions.build().perform();
+		System.out.println("Radio is Cliked!");
 	}
 
 	public void home() {
@@ -158,8 +158,8 @@ public class Menus {
 		Actions actions = new Actions(driver);
 		actions.moveToElement(home);
 		actions.click();
-		System.out.println("Home is Cliked!");
 		actions.build().perform();
+		System.out.println("Home is Cliked!");
 	}
 
 	public void liveEvent() {
@@ -167,8 +167,8 @@ public class Menus {
 		Actions actions = new Actions(driver);
 		actions.moveToElement(liveEvent);
 		actions.click();
-		System.out.println("Live Event is Cliked!");
 		actions.build().perform();
+		System.out.println("Live Event is Cliked!");
 	}
 
 	public void liveTv() {
@@ -176,8 +176,8 @@ public class Menus {
 		Actions actions = new Actions(driver);
 		actions.moveToElement(liveTv);
 		actions.click();
-		System.out.println("Live Tv is Cliked!");
 		actions.build().perform();
+		System.out.println("Live Tv is Cliked!");
 	}
 
 	public void library() {
@@ -185,8 +185,8 @@ public class Menus {
 		Actions actions = new Actions(driver);
 		actions.moveToElement(library);
 		actions.click();
-		System.out.println("Library is Cliked!");
 		actions.build().perform();
+		System.out.println("Library is Cliked!");
 	}
 
 	public void account() {
@@ -194,8 +194,8 @@ public class Menus {
 		Actions actions = new Actions(driver);
 		actions.moveToElement(account);
 		actions.click();
-		System.out.println("Menu Account is Clicked!");
 		actions.build().perform();
+		System.out.println("Menu Account is Clicked!");
 	}
 
 	private void waitForVisible(WebDriver driver, WebElement element) {
