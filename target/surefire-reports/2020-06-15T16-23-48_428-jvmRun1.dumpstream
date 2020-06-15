@@ -1,0 +1,4 @@
+# Created at 2020-06-15T16:23:50.025
+
+Two tests in the same suite cannot have the same name: Test_News
+

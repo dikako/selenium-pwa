@@ -5,7 +5,7 @@
 	<test name="Test_Register" parallel="methods" thread-count="5">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="Test_Register">
+			<class name="test.Test_Register">
 				<methods>
 					<include name="register_invalidEmail" />
 					<include name="register_invalidPasswordNotMatch" />
@@ -21,7 +21,7 @@
 	<test name="Test_Login" parallel="methods" thread-count="11">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="Test_Login">
+			<class name="test.Test_Login">
 				<methods>
 					<include name="login_invalidEmail" />
 					<include name="login_invalidPassword" />
@@ -42,7 +42,7 @@
 	<test name="Test_Edit_Profile" parallel="methods" thread-count="2">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="Test_EditProfile">
+			<class name="test.Test_EditProfile">
 				<methods>
 					<include name="editprofile_Fullname" />
 					<include name="editprofile_NicknameTaken" />
@@ -54,7 +54,7 @@
 	<test name="Test_Chat" parallel="methods" thread-count="4">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="Test_Chat">
+			<class name="test.Test_Chat">
 				<methods>
 					<include name="chat_beforeLoginGTV" />
 					<include name="chat_beforeLoginINEWS" />
@@ -68,7 +68,7 @@
 	<test name="Test_Exclusive" parallel="methods" thread-count="5">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="Test_Exclusive">
+			<class name="test.Test_Exclusive">
 				<methods>
 					<include name="exclusive_validateCloseListShare" />
 					<include name="exclusive_validateListCountShare" />
@@ -82,33 +82,34 @@
 			</class>
 		</classes>
 	</test>
-	
-		<test name="Test_Forget_Password" parallel="methods" thread-count="1">
+
+	<test name="Test_Forget_Password" parallel="methods"
+		thread-count="1">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="Test_ForgetPassword">
+			<class name="test.Test_ForgetPassword">
 				<methods>
 					<include name="forgetpassword_phoneNotRegistered" />
 				</methods>
 			</class>
 		</classes>
 	</test>
-	
-		<test name="Test_My_List" parallel="methods" thread-count="1">
+
+	<test name="Test_My_List" parallel="methods" thread-count="1">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="Test_Mylist">
+			<class name="test.Test_Mylist">
 				<methods>
 					<include name="mylist_addByAccountLogin" />
 				</methods>
 			</class>
 		</classes>
 	</test>
-	
-		<test name="Test_News" parallel="methods" thread-count="1">
+
+	<test name="Test_News" parallel="methods" thread-count="1">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="Test_News">
+			<class name="test.Test_News">
 				<methods>
 					<include name="news_validateCountCategoryDefault" />
 					<include name="news_validateCountRelatedArtikelThumbnail" />
@@ -117,29 +118,16 @@
 			</class>
 		</classes>
 	</test>
-	
-		<test name="Test_News" parallel="methods" thread-count="1">
+
+	<test name="Test_Radio" parallel="methods" thread-count="1">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="Test_News">
-				<methods>
-					<include name="news_validateCountCategoryDefault" />
-					<include name="news_validateCountRelatedArtikelThumbnail" />
-					<include name="news_validateCountThumbnailSmall" />
-				</methods>
-			</class>
-		</classes>
-	</test>
-	
-		<test name="Test_Radio" parallel="methods" thread-count="1">
-		<parameter name="browser" value="chrome" />
-		<classes>
-			<class name="Test_Radio">
+			<class name="test.Test_Radio">
 				<methods>
 					<include name="radio_validateUrlRadio" />
 				</methods>
 			</class>
 		</classes>
 	</test>
-	
+
 </suite> 
