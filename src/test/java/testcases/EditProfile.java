@@ -112,7 +112,7 @@ public class EditProfile {
 	}
 
 	public void actionLogin() {
-		String username = "dikakoko04@gmail.com";
+		String username = "paijo@mailinator.com";
 		String password = "dikakoko";
 
 		Logins login = PageFactory.initElements(driver, Logins.class);
