@@ -9,13 +9,41 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestResult;
+//import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+//import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+//import org.testng.annotations.DataProvider;
+//import org.testng.annotations.Test;
+//
+//import cucumber.api.testng.CucumberFeatureWrapper;
+//import cucumber.api.testng.TestNGCucumberRunner;
 import utility.*;
 
 public class Setup {
 	protected RemoteWebDriver driver;
-
+//	private TestNGCucumberRunner testNgCucumberRunner;
+//	
+//	@BeforeClass(alwaysRun = true)
+//	public void setUpClass() throws Exception {
+//		this.testNgCucumberRunner = new TestNGCucumberRunner(this.getClass());
+//	}
+//	
+//	@Test(groups = {"cucumber"}, description = "Runs Cucumber Feature", dataProvider = "features")
+//	public void feature(CucumberFeatureWrapper cucumberFeatureWrapper) {
+//		this.testNgCucumberRunner.runCucumber(cucumberFeatureWrapper.getCucumberFeature());
+//	}
+//	
+//	@DataProvider
+//	public Object[][] features() {
+//		return this.testNgCucumberRunner.provideFeatures();
+//	}
+//	
+//	@AfterClass(alwaysRun = true)
+//	public void setDownClass() throws Exception {
+//		this.testNgCucumberRunner.finish();
+//	}
+	
 	@BeforeMethod
 	public void set() throws MalformedURLException {
 		//WebDriverManager.chromedriver().browserVersion("83.0.4103.61").setup();

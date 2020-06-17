@@ -1,89 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="5" failed="0" total="5" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="106549" started-at="2020-06-16T14:59:47Z" finished-at="2020-06-16T15:01:33Z">
+  <suite name="Default suite" duration-ms="184" started-at="2020-06-17T06:00:17Z" finished-at="2020-06-17T06:00:17Z">
     <groups>
+      <group name="cucumber">
+        <method signature="Setup.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.Test_Chat@64bf3bbf]" name="feature" class="config.Setup"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="106549" started-at="2020-06-16T14:59:47Z" finished-at="2020-06-16T15:01:33Z">
-      <class name="test.Test_LiveTv">
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_LiveTv@1ce92674]" test-instance-name="" name="set" is-config="true" duration-ms="1821" started-at="2020-06-16T21:59:47Z" finished-at="2020-06-16T21:59:48Z">
+    <test name="Default test" duration-ms="184" started-at="2020-06-17T06:00:17Z" finished-at="2020-06-17T06:00:17Z">
+      <class name="test.Test_Chat">
+        <test-method status="FAIL" signature="setUpClass()[pri:0, instance:test.Test_Chat@64bf3bbf]" test-instance-name="" name="setUpClass" is-config="true" duration-ms="0" started-at="2020-06-17T13:00:17Z" finished-at="2020-06-17T13:00:17Z">
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[No backends were found. Please make sure you have a backend module on your CLASSPATH.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: No backends were found. Please make sure you have a backend module on your CLASSPATH.
+	at cucumber.runtime.Runtime.<init>(Runtime.java:81)
+	at cucumber.runtime.Runtime.<init>(Runtime.java:70)
+	at cucumber.runtime.Runtime.<init>(Runtime.java:66)
+	at cucumber.api.testng.TestNGCucumberRunner.<init>(TestNGCucumberRunner.java:42)
+	at config.Setup.setUpClass(Setup.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method name="feature" test-instance-name="" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.Test_Chat@64bf3bbf]" status="SKIP" duration-ms="0" finished-at="2020-06-17T13:00:17Z" started-at="2020-06-17T13:00:17Z" data-provider="features" description="Runs Cucumber Feature">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:163)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1274)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:989)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1079)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: java.lang.NullPointerException
+	at config.Setup.features(Setup.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:137)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Chat@64bf3bbf]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-17T13:00:17Z" finished-at="2020-06-17T13:00:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method status="PASS" signature="livetv_validateTabChatGTV()[pri:9, instance:test.Test_LiveTv@1ce92674]" test-instance-name="" name="livetv_validateTabChatGTV" duration-ms="34761" started-at="2020-06-16T21:59:48Z" finished-at="2020-06-16T22:00:23Z">
+        <test-method status="SKIP" signature="chat_beforeLoginRCTI()[pri:0, instance:test.Test_Chat@64bf3bbf]" test-instance-name="" name="chat_beforeLoginRCTI" duration-ms="2" started-at="2020-06-17T13:00:17Z" finished-at="2020-06-17T13:00:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- livetv_validateTabChatGTV -->
-        <test-method status="PASS" signature="done(org.testng.ITestResult)[pri:0, instance:test.Test_LiveTv@1ce92674]" test-instance-name="" name="done" is-config="true" duration-ms="70" started-at="2020-06-16T22:00:23Z" finished-at="2020-06-16T22:00:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name="" status=SUCCESS method=Test_LiveTv.livetv_validateTabChatGTV()[pri:9, instance:test.Test_LiveTv@1ce92674] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- chat_beforeLoginRCTI -->
+        <test-method status="SKIP" signature="done(org.testng.ITestResult)[pri:0, instance:test.Test_Chat@64bf3bbf]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-17T13:00:17Z" finished-at="2020-06-17T13:00:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- done -->
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_LiveTv@1ce92674]" test-instance-name="" name="set" is-config="true" duration-ms="1379" started-at="2020-06-16T22:00:23Z" finished-at="2020-06-16T22:00:25Z">
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Chat@64bf3bbf]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-17T13:00:17Z" finished-at="2020-06-17T13:00:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method status="PASS" signature="livetv_validateTabChatINEWS()[pri:9, instance:test.Test_LiveTv@1ce92674]" test-instance-name="" name="livetv_validateTabChatINEWS" duration-ms="21362" started-at="2020-06-16T22:00:25Z" finished-at="2020-06-16T22:00:46Z">
+        <test-method status="SKIP" signature="chat_beforeLoginMNCTV()[pri:1, instance:test.Test_Chat@64bf3bbf]" test-instance-name="" name="chat_beforeLoginMNCTV" duration-ms="2" started-at="2020-06-17T13:00:17Z" finished-at="2020-06-17T13:00:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- livetv_validateTabChatINEWS -->
-        <test-method status="PASS" signature="done(org.testng.ITestResult)[pri:0, instance:test.Test_LiveTv@1ce92674]" test-instance-name="" name="done" is-config="true" duration-ms="71" started-at="2020-06-16T22:00:46Z" finished-at="2020-06-16T22:00:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name="" status=SUCCESS method=Test_LiveTv.livetv_validateTabChatINEWS()[pri:9, instance:test.Test_LiveTv@1ce92674] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- chat_beforeLoginMNCTV -->
+        <test-method status="SKIP" signature="done(org.testng.ITestResult)[pri:0, instance:test.Test_Chat@64bf3bbf]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-17T13:00:17Z" finished-at="2020-06-17T13:00:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- done -->
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_LiveTv@1ce92674]" test-instance-name="" name="set" is-config="true" duration-ms="1329" started-at="2020-06-16T22:00:46Z" finished-at="2020-06-16T22:00:47Z">
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Chat@64bf3bbf]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-17T13:00:17Z" finished-at="2020-06-17T13:00:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method status="PASS" signature="livetv_validateTabChatMNCTV()[pri:9, instance:test.Test_LiveTv@1ce92674]" test-instance-name="" name="livetv_validateTabChatMNCTV" duration-ms="19357" started-at="2020-06-16T22:00:47Z" finished-at="2020-06-16T22:01:07Z">
+        <test-method status="SKIP" signature="chat_beforeLoginGTV()[pri:2, instance:test.Test_Chat@64bf3bbf]" test-instance-name="" name="chat_beforeLoginGTV" duration-ms="1" started-at="2020-06-17T13:00:17Z" finished-at="2020-06-17T13:00:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- livetv_validateTabChatMNCTV -->
-        <test-method status="PASS" signature="done(org.testng.ITestResult)[pri:0, instance:test.Test_LiveTv@1ce92674]" test-instance-name="" name="done" is-config="true" duration-ms="120" started-at="2020-06-16T22:01:07Z" finished-at="2020-06-16T22:01:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name="" status=SUCCESS method=Test_LiveTv.livetv_validateTabChatMNCTV()[pri:9, instance:test.Test_LiveTv@1ce92674] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- chat_beforeLoginGTV -->
+        <test-method status="SKIP" signature="done(org.testng.ITestResult)[pri:0, instance:test.Test_Chat@64bf3bbf]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-17T13:00:17Z" finished-at="2020-06-17T13:00:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- done -->
-        <test-method status="PASS" signature="set()[pri:0, instance:test.Test_LiveTv@1ce92674]" test-instance-name="" name="set" is-config="true" duration-ms="1248" started-at="2020-06-16T22:01:07Z" finished-at="2020-06-16T22:01:08Z">
+        <test-method status="SKIP" signature="set()[pri:0, instance:test.Test_Chat@64bf3bbf]" test-instance-name="" name="set" is-config="true" duration-ms="0" started-at="2020-06-17T13:00:17Z" finished-at="2020-06-17T13:00:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method status="PASS" signature="livetv_validateTabChatRCTI()[pri:9, instance:test.Test_LiveTv@1ce92674]" test-instance-name="" name="livetv_validateTabChatRCTI" duration-ms="24890" started-at="2020-06-16T22:01:08Z" finished-at="2020-06-16T22:01:33Z">
+        <test-method status="SKIP" signature="chat_beforeLoginINEWS()[pri:3, instance:test.Test_Chat@64bf3bbf]" test-instance-name="" name="chat_beforeLoginINEWS" duration-ms="2" started-at="2020-06-17T13:00:17Z" finished-at="2020-06-17T13:00:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- livetv_validateTabChatRCTI -->
-        <test-method status="PASS" signature="done(org.testng.ITestResult)[pri:0, instance:test.Test_LiveTv@1ce92674]" test-instance-name="" name="done" is-config="true" duration-ms="120" started-at="2020-06-16T22:01:33Z" finished-at="2020-06-16T22:01:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name="" status=SUCCESS method=Test_LiveTv.livetv_validateTabChatRCTI()[pri:9, instance:test.Test_LiveTv@1ce92674] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- chat_beforeLoginINEWS -->
+        <test-method status="SKIP" signature="done(org.testng.ITestResult)[pri:0, instance:test.Test_Chat@64bf3bbf]" test-instance-name="" name="done" is-config="true" duration-ms="0" started-at="2020-06-17T13:00:17Z" finished-at="2020-06-17T13:00:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- done -->
-      </class> <!-- test.Test_LiveTv -->
+        <test-method status="FAIL" signature="setDownClass()[pri:0, instance:test.Test_Chat@64bf3bbf]" test-instance-name="" name="setDownClass" is-config="true" duration-ms="0" started-at="2020-06-17T13:00:17Z" finished-at="2020-06-17T13:00:17Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at config.Setup.setDownClass(Setup.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:232)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:115)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDownClass -->
+      </class> <!-- test.Test_Chat -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

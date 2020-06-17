@@ -1,10 +1,11 @@
 package test;
 
 import org.testng.annotations.Test;
-
 import config.Setup;
 import config.Url;
 import testcases.Chat;
+
+//@CucumberOptions(features = { "src//test//java//features" }, glue = {"stepDefinations"}, plugin = {"pretty", "html:target/cucumber"})
 
 @Test
 public class Test_Chat extends Setup {
@@ -15,7 +16,7 @@ public class Test_Chat extends Setup {
 		url.urls("/login");
 		page.chatRcti();
 	}
-	
+
 	@Test(priority = 1)
 	public void chat_beforeLoginMNCTV() {
 		Chat page = new Chat(driver);
@@ -23,7 +24,7 @@ public class Test_Chat extends Setup {
 		url.urls("/login");
 		page.chatMnctv();
 	}
-	
+
 	@Test(priority = 2)
 	public void chat_beforeLoginGTV() {
 		Chat page = new Chat(driver);
@@ -31,7 +32,7 @@ public class Test_Chat extends Setup {
 		url.urls("/login");
 		page.chatGtv();
 	}
-	
+
 	@Test(priority = 3)
 	public void chat_beforeLoginINEWS() {
 		Chat page = new Chat(driver);

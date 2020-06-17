@@ -1,4 +1,5 @@
 D:\selenium\src\test\java\test\Test_Mylist.java
+D:\selenium\src\test\java\testcases\LiveTv.java
 D:\selenium\src\test\java\object\Menus.java
 D:\selenium\src\test\java\object\Registers.java
 D:\selenium\src\test\java\object\Logins.java
@@ -13,6 +14,7 @@ D:\selenium\src\test\java\testcases\Login.java
 D:\selenium\src\test\java\wordings\Wording_EditProfile.java
 D:\selenium\src\test\java\config\Url.java
 D:\selenium\src\test\java\object\Mailinators.java
+D:\selenium\src\test\java\object\LiveTvs.java
 D:\selenium\src\test\java\testcases\Exclusive.java
 D:\selenium\src\test\java\testcases\Register.java
 D:\selenium\src\test\java\testcases\Mylist.java
@@ -20,6 +22,7 @@ D:\selenium\src\test\java\object\Radios.java
 D:\selenium\src\test\java\object\Chats.java
 D:\selenium\src\test\java\test\Test_Register.java
 D:\selenium\src\test\java\test\Test_Exclusive.java
+D:\selenium\src\test\java\test\Test_LiveTv.java
 D:\selenium\src\test\java\testcases\Chat.java
 D:\selenium\src\test\java\wordings\Wording_Register.java
 D:\selenium\src\test\java\test\Test_ForgetPassword.java

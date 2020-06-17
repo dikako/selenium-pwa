@@ -6,6 +6,7 @@
       <class name="test.Test_Chat"/>
       <class name="test.Test_Register"/>
       <class name="test.Test_Exclusive"/>
+      <class name="test.Test_LiveTv"/>
       <class name="test.Test_EditProfile"/>
       <class name="test.Test_Radio"/>
       <class name="test.Test_Mylist"/>
